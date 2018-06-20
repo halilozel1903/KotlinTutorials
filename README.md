@@ -12,7 +12,7 @@ https://medium.com/@halilozel1903/kotlin-nedir-43e312d2dca6
 
 ## Projenin Amacı
 
-Kotlin ile ilgili en temel konulardan başlayıp ileri seviye konuları hem kendim öğrenmek hem de öğrendiğim bilgileri sizlerle paylaşarak etkileşimli bir proje oluşturmak. Arkadaşlar her türlü eleştiri ve desteğe açığım :smile:
+Kotlin ile ilgili en temel konulardan başlayıp ileri seviye konuları hem kendim öğrenmek hem de öğrendiğim bilgileri sizlerle paylaşarak etkileşimli bir proje oluşturmak. Arkadaşlar eleştiri ve önerilerinizi bekliyorum :smile:
 
 ## Projenin İçeriği
 Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içeren bir projedir. <br>
