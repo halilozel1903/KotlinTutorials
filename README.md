@@ -31,9 +31,9 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 - [if Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/ifExpression.kt)
 - [if..else..if Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/if..else..ifExpression.kt)
 - [Nested if Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/NestedifExpression.kt)
-- when Expression
-- while Loop
-- do...while Loop
+- [when Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/When.kt)
+- [while Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/WhileLoop.kt)
+- [do...while Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/do...whileLoop.kt)
 - for Loop
 - Recursive Function
 - break-continue Expression
