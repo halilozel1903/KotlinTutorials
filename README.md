@@ -35,6 +35,7 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 - [while Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/WhileLoop.kt)
 - [do...while Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/do...whileLoop.kt)
 - for Loop
+- [Arrays](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Arrays.kt)
 - Recursive Function
 - break-continue Expression
 - Functions
