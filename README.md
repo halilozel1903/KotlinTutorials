@@ -38,8 +38,9 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 - [Arrays](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Arrays.kt)
 - [Range](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Range.kt)
 - [Null Safety](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/NullSafety.kt)
+- [break](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Break.kt)
+- [continue](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Continue.kt)
 - Recursive Function
-- break-continue Expression
 - Functions
 - Infix Function
 - Class and Objects
