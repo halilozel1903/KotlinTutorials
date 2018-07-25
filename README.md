@@ -40,8 +40,8 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 - [Null Safety](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/NullSafety.kt)
 - [break](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Break.kt)
 - [continue](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Continue.kt)
+- [Functions](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/Functions.kt)
 - Recursive Function
-- Functions
 - Infix Function
 - Class and Objects
 - Constructors
@@ -68,6 +68,7 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 3. https://www.tutorialspoint.com/kotlin/
 4. https://www.mobilhanem.com/kotlin-egitimleri/
 5. https://www.udemy.com/sifirdan-ileri-seviyeye-kotlin-ve-android-kursu/learn
+6. https://www.kitapyurdu.com/kitap/kotlin-/430490.html
 
 
 # NOT
