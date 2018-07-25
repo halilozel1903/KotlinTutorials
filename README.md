@@ -44,7 +44,7 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 - [Function Overloading](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/MethodOverloading.kt)
 - [Multiform Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/MultiformFunction.kt)
 - [Top Level Method](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/TopLevelMethod.kt)
-- Recursive Function(https://github.com/halilozel1903/KotlinTutorials/blob/master/src/RecursiveFunction.kt)
+- [Recursive Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/RecursiveFunction.kt)
 - Infix Function
 - Class and Objects
 - Constructors
