@@ -2,22 +2,21 @@
 
 ![Screenshot](kotlin.jpeg)
 
-# Kotlin Nedir ?
+# What is Kotlin?
 
-Kotlin Nedir ? adlı bir blog yazısı yazdım. Kotlin dilinin ne olduğu ne olmadığı, Java ile farkı benzerlikleri, Kotlin'in
-desteklediği platformlar ve birbirinden güzel kaynaklar ekledim. Yazıya aşağıdaki linkten ulaşabilirsiniz :
+I added the platforms it supports and great resources. You can access the article from the link below:
 
 https://medium.com/@halilozel1903/kotlin-nedir-43e312d2dca6
 
 
-## Projenin Amacı
+## The goal of the project
 
-Kotlin ile ilgili en temel konulardan başlayıp ileri seviye konuları hem kendim öğrenmek hem de öğrendiğim bilgileri sizlerle paylaşarak etkileşimli bir proje oluşturmak. Arkadaşlar eleştiri ve önerilerinizi bekliyorum :smile:
+Starting from the most basic topics about Kotlin, learning advanced topics by myself and creating an interactive project by sharing the information I have learned with you. Friends, I'm waiting for your comments and suggestions :smile:
 
-## Projenin İçeriği
+## Project Content
 Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içeren bir projedir. <br>
 
-## Projenin Konuları
+## Project Subjects
 - [Hello World](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/HelloWorld.kt)
 - [Basic Types](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/BasicTypes.kt)
 - [Arithmetic Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/ArithmeticOperators.kt)
@@ -64,7 +63,7 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 
 
 
-## Yararlandığım Kaynaklar
+## Resources
 
 1. https://kotlinlang.org/docs/kotlin-docs.pdf
 2. https://www.programiz.com/kotlin-programming
@@ -74,7 +73,7 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 6. https://www.kitapyurdu.com/kitap/kotlin-/430490.html
 
 
-# NOT
-Ders,kaynak ve örnek eklemeleri devam edecektir. <br>
+# NOTE
+Course, resource and sample additions will continue.<br>
 
 
