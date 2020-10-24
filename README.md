@@ -14,7 +14,7 @@ https://medium.com/@halilozel1903/kotlin-nedir-43e312d2dca6
 Starting from the most basic topics about Kotlin, learning advanced topics by myself and creating an interactive project by sharing the information I have learned with you. Friends, I'm waiting for your comments and suggestions :smile:
 
 ## Project Content
-Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içeren bir projedir. <br>
+It is a project that contains various information and examples about the basics of programming with Kotlin. <br>
 
 ## Project Subjects
 - [Hello World](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/HelloWorld.kt)
@@ -68,9 +68,6 @@ Kotlin ile programlamanın temelleri hakkında çeşitli bilgi ve örnekler içe
 1. https://kotlinlang.org/docs/kotlin-docs.pdf
 2. https://www.programiz.com/kotlin-programming
 3. https://www.tutorialspoint.com/kotlin/
-4. https://www.mobilhanem.com/kotlin-egitimleri/
-5. https://www.udemy.com/sifirdan-ileri-seviyeye-kotlin-ve-android-kursu/learn
-6. https://www.kitapyurdu.com/kitap/kotlin-/430490.html
 
 
 # NOTE
