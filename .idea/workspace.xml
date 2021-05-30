@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24dfc760-734b-4960-8539-5fea4a304541" name="Default Changelist" comment="" />
+    <list default="true" id="24dfc760-734b-4960-8539-5fea4a304541" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArithmeticOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AssignmentOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BasicTypes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Break.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparison-EqualityOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Continue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Global-LocalVariables.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Increment-DecrementOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Input-Output.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LogicalOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverloading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiformFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedifExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullSafety.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Range.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecursiveFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TopLevelMethod.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TopLevelMethod/Simple.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TypeConversion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Variables.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/When.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WhileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/do...whileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/if..else..ifExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ifExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KotlinTutorials.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ArithmeticOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ArraysKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/AssignmentOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/BasicTypesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/BreakKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Comparison_EqualityOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ContinueKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Do___whileLoopKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ForLoopKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/FunctionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Global_LocalVariablesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/HelloWorldKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/IfExpressionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/If__else__ifExpressionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/InOperatorKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Increment_DecrementOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Input_OutputKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/LogicalOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/META-INF/KotlinTutorial.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/MethodOverloadingKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/MultiformFunctionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/NestedifExpressionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/NullSafetyKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/RangeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/RecursiveFunctionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TopLevelMethod/Simple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TopLevelMethod/SimpleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TopLevelMethodKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TypeConversionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/VariablesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/WhenKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/WhileLoopKt.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +179,6 @@
       <workItem from="1622378259142" duration="443000" />
       <workItem from="1622378815342" duration="1699000" />
       <workItem from="1622380562506" duration="16000" />
-      <workItem from="1622380913087" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="Project settings was updated.&#10;Bug fixed.">
       <created>1622380302991</created>
