@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24dfc760-734b-4960-8539-5fea4a304541" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArithmeticOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AssignmentOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BasicTypes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Break.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparison-EqualityOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Continue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Global-LocalVariables.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Increment-DecrementOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Input-Output.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LogicalOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverloading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiformFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedifExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullSafety.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Range.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecursiveFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TopLevelMethod.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TopLevelMethod/Simple.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TypeConversion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Variables.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/When.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WhileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/do...whileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/if..else..ifExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ifExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KotlinTutorials.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ArithmeticOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ArraysKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/AssignmentOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/BasicTypesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/BreakKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Comparison_EqualityOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ContinueKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Do___whileLoopKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/ForLoopKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/FunctionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Global_LocalVariablesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/HelloWorldKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/IfExpressionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/If__else__ifExpressionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/InOperatorKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Increment_DecrementOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/Input_OutputKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/LogicalOperatorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/META-INF/KotlinTutorial.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/MethodOverloadingKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/MultiformFunctionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/NestedifExpressionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/NullSafetyKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/RangeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/RecursiveFunctionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TopLevelMethod/Simple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TopLevelMethod/SimpleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TopLevelMethodKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/TypeConversionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/VariablesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/WhenKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/WhileLoopKt.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tFwgGRRmYAMory6PFxuzPQF8gZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../KotlinTutorial" />
+      <recent name="$PROJECT_DIR$/../KotlinTutorial/src/main/tutorialKotlin" />
+      <recent name="$PROJECT_DIR$/../kotlin/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/src/kotlin/com.kotlin.sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Global_LocalVariablesKt">
+    <configuration name="ArithmeticOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorsKt" />
+      <module name="KotlinTutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Global_LocalVariablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Global_LocalVariablesKt" />
+      <module name="KotlinTutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="KotlinTutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NullSafetyKt" />
+      <module name="KotlinTutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JetRunConfigurationType">
+      <module name="KotlinTutorials" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.Unnamed" />
+      <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="Kotlin.ArithmeticOperatorsKt" />
+      <item itemvalue="Kotlin.NullSafetyKt" />
+      <item itemvalue="Kotlin.Global_LocalVariablesKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Global_LocalVariablesKt" />
+        <item itemvalue="Kotlin.NullSafetyKt" />
+        <item itemvalue="Kotlin.ArithmeticOperatorsKt" />
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24dfc760-734b-4960-8539-5fea4a304541" name="Default Changelist" comment="" />
+      <created>1622378255181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622378255181</updated>
+      <workItem from="1622378259142" duration="443000" />
+      <workItem from="1622378815342" duration="1699000" />
+      <workItem from="1622380562506" duration="16000" />
+    </task>
+    <task id="LOCAL-00001" summary="Project settings was updated.&#10;Bug fixed.">
+      <created>1622380302991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622380302991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project settings was updated.&#10;Bug fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project settings was updated.&#10;Bug fixed." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
