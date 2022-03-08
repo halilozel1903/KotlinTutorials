@@ -61,8 +61,6 @@ It is a project that contains various information and examples about the basics 
 - Extension Function
 
 
-
-
 ## Resources  📚
 
 1. https://kotlinlang.org/docs/kotlin-docs.pdf
@@ -74,7 +72,7 @@ It is a project that contains various information and examples about the basics 
 ```
 MIT License
 
-Copyright (c) 2021 Halil Özel
+Copyright (c) 2022 Halil Özel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
