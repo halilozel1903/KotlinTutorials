@@ -1,4 +1,4 @@
-# Kotlin Tutorials
+# Kotlin Tutorials 👨🏻‍💻
 
 ![Screenshot](kotlin.jpeg)
 
@@ -9,11 +9,11 @@ I added the platforms it supports and great resources. You can access the articl
 https://medium.com/@halilozel1903/kotlin-nedir-43e312d2dca6
 
 
-## The goal of the project
+## The goal of the project 🎯
 
 Starting from the most basic topics about Kotlin, learning advanced topics by myself and creating an interactive project by sharing the information I have learned with you. Friends, I'm waiting for your comments and suggestions.
 
-## Project Content
+## Project Content 🛠
 It is a project that contains various information and examples about the basics of programming with Kotlin. <br>
 
 ## Project Subjects 👇🏻
@@ -61,8 +61,6 @@ It is a project that contains various information and examples about the basics 
 - Extension Function
 
 
-
-
 ## Resources  📚
 
 1. https://kotlinlang.org/docs/kotlin-docs.pdf
@@ -74,7 +72,7 @@ It is a project that contains various information and examples about the basics 
 ```
 MIT License
 
-Copyright (c) 2021 Halil Özel
+Copyright (c) 2022 Halil Özel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
