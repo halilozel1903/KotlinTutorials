@@ -1,6 +1,6 @@
-fun main(args: Array<String>) {
+fun main() {
 
-    val name : String ? = null // name değişkeni String veya null da olabilir.
+    val name: String? = null // name değişkeni String veya null da olabilir.
 
     println(name) // null değer dönderir.
 
@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     // println(name!!.length)  null olup olmaması önmeli değil kullanımıdır. Null Pointer Exception fırlatır.
 
 
-    var sayi : Int? // int türünde ama null değerde olabilir.
+    var sayi: Int? // int türünde ama null değerde olabilir.
     sayi = 10
     println(sayi) // sayi değeri ekranda gösterildi.
 

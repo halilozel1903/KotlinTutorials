@@ -1,10 +1,9 @@
-
 // if : İngilizce eğer anlamına gelmektedir. Şart sözcüğüdür.
 // Örneğin şu yaşındaysam ben gencim tarzında bir mesaj verdirilir.
 // Farklı bir yaşta ise diğer bir şart ifadesi olan else devreye girer.
 
 
-fun main(args: Array<String>) {
+fun main() {
 
 
     val number = 10 // number değişkeni tanımlandı.
@@ -17,8 +16,6 @@ fun main(args: Array<String>) {
 
     println(result) // sonuç değeri yazdırıldı.
 
-
-    
 
     val a = 9 // int türünde pozitif bir tam sayı tanımlandı.
     val b = -11 // negatif türde bir tam sayı tanımlandı.

@@ -1,28 +1,27 @@
+/*
 
-    /*
+Aritmetik Operatörler
 
-    Aritmetik Operatörler
++ : Toplama
 
-    + : Toplama
+- : Çıkarma
 
-    - : Çıkarma
+* : Çarpma
 
-    * : Çarpma
+/ : Bölme
 
-    / : Bölme
+% : Mod Alma
 
-    % : Mod Alma
-
-     */
+ */
 
 fun main() {
 
-    val number1  = 28.0  // number1 değeri verildi.
+    val number1 = 28.0  // number1 değeri verildi.
 
-    val number2  = 7.0 // number2 değeri verildi.
+    val number2 = 7.0 // number2 değeri verildi.
 
 
-    var result : Double = number1 + number2 // sonuç değeri tanımlandı. // toplama işlemi yapıldı.
+    var result: Double = number1 + number2 // sonuç değeri tanımlandı. // toplama işlemi yapıldı.
 
     println("$number1 + $number2 = $result")
     // javascript veya php gibi dilleri kullandıysanız bu tip yazdırma ile karşılaşmanız olasıdır.
@@ -57,7 +56,6 @@ fun main() {
 
     val sentence = start + middle + end // cümle değişkeninde onları birleştirdik.
     println(sentence) // birleştirilen string ifadeler ekranda gösterildi.
-
 
 
 }

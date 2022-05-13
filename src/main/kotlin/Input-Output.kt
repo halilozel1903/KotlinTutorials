@@ -1,7 +1,4 @@
-
-
-
-fun main(args: Array<String>) {
+fun main() {
 
     println("1. println "); // ln eki işlemi yap sonra alt satıra geç anlamında kullanılır.
     println("2. println ");
@@ -10,12 +7,11 @@ fun main(args: Array<String>) {
     print("2. print");
 
 
-
     val score = 99
 
     println("score") // score
     println(score) // 99
-    println("score : "+score) // score : 99
+    println("score : $score") // score : 99
     println("$score") // 99
     println("score : $score") // score : 99
 
@@ -33,10 +29,7 @@ fun main(args: Array<String>) {
      */
 
 
-
-
-   // Kotlinde kullanıcıdan bir veri veya değer almak için readLine() metodu kullanılır.
-
+    // Kotlinde kullanıcıdan bir veri veya değer almak için readLine() metodu kullanılır.
 
 
     print("What is your name : ") // adını girmesi için bir soru soruldu.
@@ -52,8 +45,6 @@ fun main(args: Array<String>) {
     print("How old are you : ") // kaç yaşındasınız sorusu soruldu.
     val age = readLine()!!.toInt() // int türünde değer okuması yapıldı.
     println("I am $age years old") // okunan değer ekranda gösterildi.
-
-
 
 
 }

@@ -1,4 +1,3 @@
-
 /*
 
 Kotlinde iki tip değişken bulunmaktadır.
@@ -14,17 +13,17 @@ val değişkenin kullanımı Javada final kelimesine denk gelmektedir.
  */
 
 
-fun main(args: Array<String>) {
+fun main() {
 
-    var name : String // name adında bir değişken tanımlandı.
+    val name: String // name adında bir değişken tanımlandı.
 
     name = "Halil" // tanımlanan değişkene String türünde bir içerik atandı.
 
-    println("My name is :"+name) // name değişkeninin içeriğini ekranda gösterir.
+    println("My name is :$name") // name değişkeninin içeriğini ekranda gösterir.
 
-    val pi : Double = 3.14 // pi adında Double türünde bir değişken tanımı yapılıp değeri atandı.
+    val pi: Double = 3.14 // pi adında Double türünde bir değişken tanımı yapılıp değeri atandı.
 
-    println("pi :"+pi) // pi değerini ekrana yazdırır
+    println("pi :$pi") // pi değerini ekrana yazdırır
 
     /*
 

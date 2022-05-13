@@ -1,4 +1,3 @@
-
 /*
 
 Do-while : While döngüsüne benzemektedir.
@@ -20,9 +19,7 @@ fun main() {
     do {
         println(i) // i değerini ekrana yazdır.
         i++ // i değerini arttır.
-    }
-    while (i<=5); // i değeri 5'e eşit veya  5 ten küçükse
-
+    } while (i <= 5); // i değeri 5'e eşit veya  5 ten küçükse
 
 
     // Example - 2
@@ -31,8 +28,7 @@ fun main() {
     do {
         println(j) // koşula bakmadan ilk işlem yapılıyor.
         j++ // j değerini arttır.
-    }
-    while (j<=5); // koşul devam ettikçe işlemleri yap.
+    } while (j <= 5); // koşul devam ettikçe işlemleri yap.
 
 
 }

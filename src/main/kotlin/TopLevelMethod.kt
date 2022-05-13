@@ -2,7 +2,7 @@ import TopLevelMethod.Simple
 import TopLevelMethod.topLevelMethods
 
 
-fun main(args: Array<String>) {
+fun main() {
 
     topLevelMethods() // metoda erişim için projeye doğrudan import edilir.
 

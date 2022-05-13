@@ -1,4 +1,3 @@
-
 // Tip dönüşümleri
 
 /*
@@ -8,7 +7,7 @@
 
     */
 
-fun main(args: Array<String>) {
+fun main() {
 
     /*
 

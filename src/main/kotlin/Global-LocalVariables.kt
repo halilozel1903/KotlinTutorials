@@ -1,4 +1,3 @@
-
 /*
 
 Değişkenler verileri tutan sembolik kavramlardır. Uygulama içinde değişkenler global ve yerel olmak
@@ -10,7 +9,7 @@ Local değişkenlere ise sadece tanımlandıkları kod bloğu içinden erişileb
 
 var globalNumber = 12 // bu değişken global olduğu için verilen metotların hepsi bu değişkeni kullanabilir.
 
-fun fun1():Unit{
+fun fun1(): Unit {
 
     // bu değişken local olduğu için sadece fun1 metodu bu değişkene erişilebilir.
     // Diğer kod bloklarından erişilemez.
@@ -19,14 +18,14 @@ fun fun1():Unit{
 }
 
 
-fun fun2():Unit{
+fun fun2(): Unit {
     println("fun2-global değişken : $globalNumber")
     // println("fun2-global değişken : $localNumber")
 }
 
 fun main(args: Array<String>) {
 
-    println("main-global değişken : "+globalNumber)
+    println("main-global değişken : $globalNumber")
     // println("main-global değişken : "+localNumber)
     fun1()
     fun2()

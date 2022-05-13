@@ -1,4 +1,3 @@
-
 /*
 
 önden arttırma : ++a // önce değeri arttır sonra işlemi yap.
@@ -11,9 +10,9 @@ arkadan arttırma : a++ // önce işlemi yap sonra arttırma
  */
 
 
-fun main(args: Array<String>) {
+fun main() {
 
-    var number=5 // değişken tanımlandı.
+    var number = 5 // değişken tanımlandı.
     println(number) // değer ekranda gösterildi.
 
     ++number // number değeri 1 arttırıldı.

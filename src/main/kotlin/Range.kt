@@ -5,7 +5,7 @@
 
  */
 
-fun main(args: Array<String>) {
+fun main() {
 
     var sayilar = 1..20 // 1 den 20 ye kadar ileri
     var adanZye = 'a'..'z'  // z den a ya kadar ileri
@@ -28,7 +28,7 @@ fun main(args: Array<String>) {
     println(beserBeserSayilar.last) // son elemanı
     println(beserBeserSayilar.step) // kaçar kaçar işlem yapılıyor.
 
-    for (i in 1 until 5){ // until : 1 den 5 e kadar anlamında kullanılır. (..) yerine kullanılabilir.
+    for (i in 1 until 5) { // until : 1 den 5 e kadar anlamında kullanılır. (..) yerine kullanılabilir.
 
         println(i) // ekranda i değerleri gösterildi.
     }

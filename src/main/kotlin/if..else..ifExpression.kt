@@ -1,7 +1,4 @@
-
-
-
-fun main(args: Array<String>) {
+fun main() {
 
 
     // Pozitif - Negatif Sayı Bulma
@@ -18,8 +15,6 @@ fun main(args: Array<String>) {
     println("number is $result") // sonucun ne olduğu ekranda gösteriliyor.
 
 
-
-
     // Üniversite harf notu hesaplama örneği
 
 
@@ -31,20 +26,20 @@ fun main(args: Array<String>) {
 
     val final = readLine()!!.toDouble() // final notu double türde alınıyor.
 
-    val ortalama = (vize*0.4) + (final*0.6) // ortalama hesabı yapılıyor.
+    val ortalama = (vize * 0.4) + (final * 0.6) // ortalama hesabı yapılıyor.
 
-    val sonuc = if (ortalama>=70) //eğer ortalama 70'e eşit ve üstü ise
+    val sonuc = if (ortalama >= 70) //eğer ortalama 70'e eşit ve üstü ise
         "AA"
-    else if (ortalama<70 || ortalama>=60) // ortalama 70 den küçük veya 60 a eşit ve büyükse
+    else if (ortalama < 70 || ortalama >= 60) // ortalama 70 den küçük veya 60 a eşit ve büyükse
         "BB"
-    else if (ortalama<60 || ortalama>=50) // ortalama 60 dan küçük veya 50 ye eşit ve büyükse
-       "CC"
-    else if (ortalama<50 || ortalama>=40) // ortalama 50 den küçük veya 40 a eşit ve büyükse
+    else if (ortalama < 60 || ortalama >= 50) // ortalama 60 dan küçük veya 50 ye eşit ve büyükse
+        "CC"
+    else if (ortalama < 50 || ortalama >= 40) // ortalama 50 den küçük veya 40 a eşit ve büyükse
         "DD"
     else // farklı bir değerde ise
         "FF"
 
-    println("Ortalama : "+ortalama) // ortalama değeri
+    println("Ortalama : " + ortalama) // ortalama değeri
     println("Sonuc : $sonuc") // sonuc değeri
 
 }

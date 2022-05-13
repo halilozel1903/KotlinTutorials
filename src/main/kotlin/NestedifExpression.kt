@@ -1,11 +1,10 @@
-
 /*
 
 İç içe if kullanımı birçok yerde bizlere kolaylık sağlıyor. Örneğin 3 adet sayıyı karşılaştırma
 işleminde rahatlıkla iç içe if else kullanıp sonucu elde edebiliri.
  */
 
-fun main(args: Array<String>) {
+fun main() {
 
     val n1 = 3
     val n2 = 5

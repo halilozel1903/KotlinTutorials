@@ -1,4 +1,3 @@
-
 /*
 
 While döngüsü, programın bir bölümünü birkaç kez yinelemek için kullanılır.
@@ -14,7 +13,7 @@ while (testExpression) {
  */
 
 
-fun main(args: Array<String>) {
+fun main() {
 
 
     var i = 1 // i değeri verildi.

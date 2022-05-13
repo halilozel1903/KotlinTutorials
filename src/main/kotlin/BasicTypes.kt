@@ -1,4 +1,3 @@
-
 /*
     Kotlin, Java gibi statik olarak yazılmış bir dildir.
     Yani, derleme zamanı sırasında bir değişkenin tipi bilinir.
@@ -14,7 +13,6 @@
     Arrays
 
  */
-
 
 
 /*
@@ -46,13 +44,10 @@ fun main() {
     */
 
 
-
-    val range : Byte = 111 // byte türünde bir değişken tanımlandı.
+    val range: Byte = 111 // byte türünde bir değişken tanımlandı.
     println("range : $range") // değişken değeri -128 ile 127 arasında bir değer olduğu için ekrana range değerini yazar
 
     // val rangeTwo : Byte = 133 Ya bunu toByte ile byte dönüştür ya da int tipine dönüştür
-
-
 
 
     /*
@@ -67,11 +62,8 @@ fun main() {
      */
 
 
-
-    val temp : Short = 12345 // temp değeri Short tipinin aralığında olduğu için sıkıntı olmayacaktır.
+    val temp: Short = 12345 // temp değeri Short tipinin aralığında olduğu için sıkıntı olmayacaktır.
     println("temp : $temp") // ekrana içeriği bastırılıyor.
-
-
 
 
     /*
@@ -84,9 +76,8 @@ fun main() {
      */
 
 
-    val result : Int = 1000000 // int turunde bir değişken tanımlandı.
+    val result: Int = 1000000 // int turunde bir değişken tanımlandı.
     println(result) // ekrana sonucu bastırıldı.
-
 
 
     /*
@@ -109,7 +100,7 @@ fun main() {
 
      */
 
-    val score : Long = 9999 // long tipinde bir değişken tanımlandı.
+    val score: Long = 9999 // long tipinde bir değişken tanımlandı.
     println(score) // score değeri ekranda gösterildi.
 
     /*
@@ -127,17 +118,15 @@ fun main() {
     val newValue = 100L // long tipinde bir değişkendir.
 
 
-
     // Double : çift hassasiyetli bir 64-bit kayan noktalı sayıdır.
 
-    val examNote : Double = 99.9 // noktalı sayılarda kullanılır.
+    val examNote: Double = 99.9 // noktalı sayılarda kullanılır.
     println("examNote : $examNote") // 0.01 puanı nereden kırdın be Zalım hoca :)
-
 
 
     // Float : Veri tipi tek hassasiyetli bir 32 bit kayan noktadır.
 
-    val coldValue : Float = -10F // f parametresiyle birlikte kullanılır.
+    val coldValue: Float = -10F // f parametresiyle birlikte kullanılır.
     println(coldValue) // değişkenin içeriği ekranda gsöterilir.
 
     /*
@@ -147,7 +136,7 @@ fun main() {
      */
 
 
-    var myNumber : Number = 1903  // int tipinde
+    var myNumber: Number = 1903  // int tipinde
 
     println(myNumber) // 1903
 
@@ -164,11 +153,10 @@ fun main() {
     println(myNumber) // 1903
 
 
+    // Char :  Kotlin'de bir karakteri temsil etmek için Char tipleri kullanılır.
 
-   // Char :  Kotlin'de bir karakteri temsil etmek için Char tipleri kullanılır.
 
-
-    val character : Char = 'A' // char türünde bir değişken tanımlandı.
+    val character: Char = 'A' // char türünde bir değişken tanımlandı.
 
     println(character) // karakter değeri ekranda gösterildi.
 
@@ -180,12 +168,10 @@ fun main() {
     // Ama Kotlin böyle bir işleme izin vermez hatalı kullanım olduğunu bildirir.
 
 
-
     // Boolean : Veri türü, true veya false olmak üzere iki olası değere sahiptir.
 
-    val state : Boolean = true // true ya da false sonuclarını atayabiliriz.
+    val state: Boolean = true // true ya da false sonuclarını atayabiliriz.
     println(state) // durum sonucu
-
 
 
 }

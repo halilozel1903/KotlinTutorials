@@ -1,6 +1,3 @@
-
-
-
 /*
 
     Continue : Döngü yine çalışmaya devam eder. Ancak belirli bir şart sağlandığında, döngü içinde
@@ -12,9 +9,9 @@
 
 fun main() {
 
-    for (i in 1..10){ // i 1'den 10'a kadar dön
+    for (i in 1..10) { // i 1'den 10'a kadar dön
 
-        if (i == 8){ // i değeri 8 ise
+        if (i == 8) { // i değeri 8 ise
 
             continue // 8 değerini geç
         }
@@ -23,9 +20,9 @@ fun main() {
     }
 
 
-    for (char in "Halil&İbrahim"){ // string türde bir ifade kadar dön
+    for (char in "Halil&İbrahim") { // string türde bir ifade kadar dön
 
-        if (char == '&'){ // bu karakter varsa
+        if (char == '&') { // bu karakter varsa
 
             print(" ") // boşluk bırak
 

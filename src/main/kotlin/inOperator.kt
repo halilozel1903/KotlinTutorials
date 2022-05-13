@@ -1,8 +1,7 @@
-
 // in : operatörü bir dizinin ya da yapının içinde herhangi bir eleman bulunuyor mu onu kontrol edilir.
 // string bir metod olan contains ile aynı işlevi yapmaktadır.
 
-fun main(args: Array<String>) {
+fun main() {
 
     val numbers = intArrayOf(1, 4, 42, -3) // int türünde değerler içeren bir yapı
 

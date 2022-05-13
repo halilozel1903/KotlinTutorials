@@ -1,4 +1,4 @@
-fun main(args: Array<String>) { // main fonksiyonu
+fun main() { // main fonksiyonu
 
     print("Hello World !!!") // print ekrana yazdırma metodu
 
@@ -16,6 +16,5 @@ fun main(args: Array<String>) { // main fonksiyonu
         
     }
 }
-
 
  */

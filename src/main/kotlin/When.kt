@@ -1,4 +1,3 @@
-
 /*
 
 when yapısı Javada kullanılan switch-case yapısına benzemektedir.
@@ -6,7 +5,7 @@ Daha esnek bir yapıya sahip olan When ile daha kolay şartları yapabileceksini
 
  */
 
-fun main(args: Array<String>) {
+fun main() {
 
 
     val a = 12
@@ -27,8 +26,6 @@ fun main(args: Array<String>) {
     println("result = $result") // sonuç ekranda gösteriliyor.
 
 
-
-
     // Birden fazla değere sahip ifadenin içeriğinde bulunup bulunmamasına bakılıyor.
 
     val n = -1 // değişken tanımlandı.
@@ -40,7 +37,6 @@ fun main(args: Array<String>) {
     }
 
 
-
     // range(aralık) belirtilerekde kullanılabilir.
 
     val j = 100 // j değişkenine 100 değeri atandı.
@@ -49,11 +45,6 @@ fun main(args: Array<String>) {
         in 1..10 -> println("A positive number less than 11.") // 1 ile 10 arasında ise
         in 10..100 -> println("A positive number between 10 and 100 (inclusive)") // 10 ile 100 arasında ise
     }
-
-
-
-
-
 
 
 }
