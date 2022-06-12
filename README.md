@@ -67,6 +67,12 @@ It is a project that contains various information and examples about the basics 
 2. https://www.programiz.com/kotlin-programming
 3. https://www.tutorialspoint.com/kotlin/
 
+## Donation 💸
+
+If this project help 💁 you reduce time to develop, you can give me a cup of coffee. ☕
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel)
+
 
 ## License  ℹ️
 ```
