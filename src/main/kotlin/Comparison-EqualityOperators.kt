@@ -11,8 +11,6 @@
 
 
 fun main() {
-
-
     val a = -12
 
     val b = 12
@@ -27,5 +25,4 @@ fun main() {
     }
 
     println("max = $max") // max değeri ekranda yazdırılıyor.
-
 }

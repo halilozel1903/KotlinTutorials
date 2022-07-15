@@ -3,8 +3,6 @@
 
  */
 
-
-
 fun main() {
 
     val myArray = Array<Int>(5) { 0 } // 5 elemanı olan ve elemanlarıda 0 olan bir dizi tanımı

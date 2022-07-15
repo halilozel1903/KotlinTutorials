@@ -155,7 +155,6 @@ fun main() {
 
     // Char :  Kotlin'de bir karakteri temsil etmek için Char tipleri kullanılır.
 
-
     val character: Char = 'A' // char türünde bir değişken tanımlandı.
 
     println(character) // karakter değeri ekranda gösterildi.
@@ -172,6 +171,4 @@ fun main() {
 
     val state: Boolean = true // true ya da false sonuclarını atayabiliriz.
     println(state) // durum sonucu
-
-
 }

@@ -56,6 +56,4 @@ fun main() {
 
     val sentence = start + middle + end // cümle değişkeninde onları birleştirdik.
     println(sentence) // birleştirilen string ifadeler ekranda gösterildi.
-
-
 }

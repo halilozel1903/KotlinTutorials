@@ -24,6 +24,4 @@ fun main() {
     a += b // a değerine b değeri eklenip a değerine atandı.
 
     println(a) // a sonucu 15
-
-
 }
