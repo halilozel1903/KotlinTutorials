@@ -44,10 +44,10 @@ It is a project that contains various information and examples about the basics 
 - [Multiform Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/MultiformFunction.kt)
 - [Top Level Method](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/TopLevelMethod.kt)
 - [Recursive Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/RecursiveFunction.kt)
-- [Infix Function]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InfixFunction.kt))
-- [Class and Objects]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Class-Objects.kt))
-- [Constructor]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Constructor.kt))
-- [Getters & Setters]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Getters-Setters.kt))
+- [Infix Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InfixFunction.kt)
+- [Class and Objects](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Class-Objects.kt)
+- [Constructor](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Constructor.kt)
+- [Getters & Setters](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Getters-Setters.kt)
 - Operator Overloading
 - Inheritance
 - Visibility Modifiers
