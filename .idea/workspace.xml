@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Class-Objects lesson was added.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Constructor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Getters-Setters lesson was added.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658248022961</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Constructor lesson was added.">
+      <created>1658248323958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658248323958</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Getters-Setters lesson was added.">
+      <created>1658248534658</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658248534658</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +198,8 @@
     <MESSAGE value="Code reformat was made." />
     <MESSAGE value="InfixFunction lesson was added." />
     <MESSAGE value="Class-Objects lesson was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Class-Objects lesson was added." />
+    <MESSAGE value="Constructor lesson was added." />
+    <MESSAGE value="Getters-Setters lesson was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Getters-Setters lesson was added." />
   </component>
 </project>

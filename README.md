@@ -2,7 +2,7 @@
 
 ![Screenshot](kotlin.jpeg)
 
-# What is Kotlin ⁉️
+# What is Kotlin ❓
 
 I added the platforms it supports and great resources. You can access the article from the link below:
 
@@ -16,7 +16,7 @@ Starting from the most basic topics about Kotlin, learning advanced topics by my
 ## Project Content 🛠
 It is a project that contains various information and examples about the basics of programming with Kotlin. <br>
 
-## Project Subjects 👇🏻
+## Project Subjects 🔖
 - [Hello World](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/HelloWorld.kt)
 - [Basic Types](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/BasicTypes.kt)
 - [Arithmetic Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ArithmeticOperators.kt)
@@ -44,10 +44,10 @@ It is a project that contains various information and examples about the basics 
 - [Multiform Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/MultiformFunction.kt)
 - [Top Level Method](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/TopLevelMethod.kt)
 - [Recursive Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/RecursiveFunction.kt)
-- Infix Function
-- Class and Objects
-- Constructors
-- Getters and Setters
+- [Infix Function]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InfixFunction.kt))
+- [Class and Objects]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Class-Objects.kt))
+- [Constructor]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Constructor.kt))
+- [Getters & Setters]((https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Getters-Setters.kt))
 - Operator Overloading
 - Inheritance
 - Visibility Modifiers
