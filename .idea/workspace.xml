@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Code reformat was made.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InfixFunction.kt" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="InfixFunction lesson was added.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Class-Objects.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InfixFunctionKt">
+  <component name="RunManager" selected="Kotlin.Class_ObjectsKt">
     <configuration name="ArithmeticOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorsKt" />
       <module name="KotlinTutorials" />
@@ -53,15 +53,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfixFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InfixFunctionKt" />
+    <configuration name="Class_ObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class_ObjectsKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="InfixFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InfixFunctionKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Class_ObjectsKt" />
         <item itemvalue="Kotlin.InfixFunctionKt" />
         <item itemvalue="Kotlin.MapExampleKt" />
         <item itemvalue="Kotlin.VariablesKt" />
         <item itemvalue="Kotlin.ArithmeticOperatorsKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657898275510</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="InfixFunction lesson was added.">
+      <created>1658246742941</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658246742941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <MESSAGE value="Example files was updated." />
     <MESSAGE value="Code refactor was made." />
     <MESSAGE value="Code reformat was made." />
-    <option name="LAST_COMMIT_MESSAGE" value="Code reformat was made." />
+    <MESSAGE value="InfixFunction lesson was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="InfixFunction lesson was added." />
   </component>
 </project>
