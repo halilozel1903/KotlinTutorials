@@ -55,10 +55,9 @@ It is a project that contains various information and examples about the basics 
 - Interfaces
 - Nested and Inner Class
 - Data Class
-- Sealed Classes
-- Object Declarations and Expressions
-- Companion Objects
-- Extension Function
+- [Sealed Classes](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/SealedClass.kt)
+- [Companion Objects](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/CompanionObject.kt)
+- [Extension Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ExtensionFunction.kt)
 
 
 ## Resources  📚

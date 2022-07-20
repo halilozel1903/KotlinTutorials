@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="CompanionObject lesson was added.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="SealedClass lesson was added.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658354843555</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SealedClass lesson was added.">
+      <created>1658355494119</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658355494119</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +239,7 @@
     <MESSAGE value="Readme page setting was updated." />
     <MESSAGE value="ExtensionFunction lesson was added." />
     <MESSAGE value="CompanionObject lesson was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="CompanionObject lesson was added." />
+    <MESSAGE value="SealedClass lesson was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="SealedClass lesson was added." />
   </component>
 </project>
