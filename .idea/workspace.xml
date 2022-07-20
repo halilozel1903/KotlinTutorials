@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Readme page setting was updated.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ExtensionFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="ExtensionFunction lesson was added.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CompanionObject.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +45,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ExtensionFunctionKt">
+  <component name="RunManager" selected="Kotlin.CompanionObjectKt">
     <configuration name="Class_ObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class_ObjectsKt" />
+      <module name="KotlinTutorials" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanionObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompanionObjectKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,20 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MapExampleKt" />
-      <module name="KotlinTutorials" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CompanionObjectKt" />
         <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.ConstructorKt" />
         <item itemvalue="Kotlin.Class_ObjectsKt" />
         <item itemvalue="Kotlin.InfixFunctionKt" />
-        <item itemvalue="Kotlin.MapExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658248809989</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ExtensionFunction lesson was added.">
+      <created>1658354353751</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658354353751</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +223,7 @@
     <MESSAGE value="Getters-Setters lesson was added." />
     <MESSAGE value="Readme page setting was made." />
     <MESSAGE value="Readme page setting was updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme page setting was updated." />
+    <MESSAGE value="ExtensionFunction lesson was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="ExtensionFunction lesson was added." />
   </component>
 </project>
