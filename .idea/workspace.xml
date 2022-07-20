@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Getters-Setters lesson was added.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Readme page setting was updated.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ExtensionFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -45,7 +46,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ConstructorKt">
+  <component name="RunManager" selected="Kotlin.ExtensionFunctionKt">
     <configuration name="Class_ObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class_ObjectsKt" />
       <module name="KotlinTutorials" />
@@ -55,6 +56,13 @@
     </configuration>
     <configuration name="ConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConstructorKt" />
+      <module name="KotlinTutorials" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtensionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExtensionFunctionKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,20 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VariablesKt" />
-      <module name="KotlinTutorials" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.ConstructorKt" />
         <item itemvalue="Kotlin.Class_ObjectsKt" />
         <item itemvalue="Kotlin.InfixFunctionKt" />
         <item itemvalue="Kotlin.MapExampleKt" />
-        <item itemvalue="Kotlin.VariablesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658248534658</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Readme page setting was made.">
+      <created>1658248719637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658248719637</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Readme page setting was updated.">
+      <created>1658248809989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658248809989</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +215,8 @@
     <MESSAGE value="Class-Objects lesson was added." />
     <MESSAGE value="Constructor lesson was added." />
     <MESSAGE value="Getters-Setters lesson was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Getters-Setters lesson was added." />
+    <MESSAGE value="Readme page setting was made." />
+    <MESSAGE value="Readme page setting was updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme page setting was updated." />
   </component>
 </project>
