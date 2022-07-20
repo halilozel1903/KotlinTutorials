@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="ExtensionFunction lesson was added.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CompanionObject.kt" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="CompanionObject lesson was added.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -45,7 +46,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CompanionObjectKt">
+  <component name="RunManager" selected="Kotlin.SealedClassKt">
     <configuration name="Class_ObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class_ObjectsKt" />
       <module name="KotlinTutorials" />
@@ -74,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfixFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InfixFunctionKt" />
+    <configuration name="SealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SealedClassKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SealedClassKt" />
         <item itemvalue="Kotlin.CompanionObjectKt" />
         <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.ConstructorKt" />
         <item itemvalue="Kotlin.Class_ObjectsKt" />
-        <item itemvalue="Kotlin.InfixFunctionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658354353751</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CompanionObject lesson was added.">
+      <created>1658354843555</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658354843555</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +232,7 @@
     <MESSAGE value="Readme page setting was made." />
     <MESSAGE value="Readme page setting was updated." />
     <MESSAGE value="ExtensionFunction lesson was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="ExtensionFunction lesson was added." />
+    <MESSAGE value="CompanionObject lesson was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="CompanionObject lesson was added." />
   </component>
 </project>
