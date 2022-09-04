@@ -1,4 +1,4 @@
-/*
+/**
 public: Visible everywhere
 private: Visible inside the same class only
 internal: Visible inside the same module

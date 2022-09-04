@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Readme page setting were updated.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/VisibilityModifiers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="VisibilityModifiers lesson was added.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -46,7 +47,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.VisibilityModifiersKt">
+  <component name="RunManager" selected="Kotlin.DataClassKt">
     <configuration name="CompanionObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompanionObjectKt" />
       <module name="KotlinTutorials" />
@@ -54,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConstructorKt" />
+    <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataClassKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DataClassKt" />
         <item itemvalue="Kotlin.VisibilityModifiersKt" />
         <item itemvalue="Kotlin.SealedClassKt" />
         <item itemvalue="Kotlin.CompanionObjectKt" />
         <item itemvalue="Kotlin.ExtensionFunctionKt" />
-        <item itemvalue="Kotlin.ConstructorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662306040501</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="VisibilityModifiers lesson was added.">
+      <created>1662314207411</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662314207411</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +264,7 @@
     <MESSAGE value="SealedClass lesson was added." />
     <MESSAGE value="Readme page setting was made." />
     <MESSAGE value="Readme page setting were updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme page setting were updated." />
+    <MESSAGE value="VisibilityModifiers lesson was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="VisibilityModifiers lesson was added." />
   </component>
 </project>

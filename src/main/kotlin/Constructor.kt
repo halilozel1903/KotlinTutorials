@@ -1,4 +1,4 @@
-/*
+/**
 In Kotlin, constructor is a block of code similar to method. Constructor is declared with the same name
 as the class followed by parenthesis '()'. Constructor is used to initialize the variables at the time of object creation.
  */
