@@ -60,12 +60,12 @@ It's a project that contains various information and examples about the basics o
 - [Companion Objects](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/CompanionObject.kt)
 - [Extension Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ExtensionFunction.kt)
 
-
 ## Resources  📚
 
 1. https://kotlinlang.org/docs/kotlin-docs.pdf
 2. https://www.programiz.com/kotlin-programming
 3. https://www.tutorialspoint.com/kotlin/
+4. https://www.geeksforgeeks.org/kotlin-programming-language/
 
 ## Donation 💸
 
