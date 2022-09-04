@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Lessons were improved.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="DataClass lesson was added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662314895975</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DataClass lesson was added.">
+      <created>1662315360477</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662315360477</updated>
+    </task>
+    <task id="LOCAL-00021" summary="DataClass lesson was added.">
+      <created>1662315365103</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662315365103</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +284,7 @@
     <MESSAGE value="Readme page setting were updated." />
     <MESSAGE value="VisibilityModifiers lesson was added." />
     <MESSAGE value="Lessons were improved." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lessons were improved." />
+    <MESSAGE value="DataClass lesson was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="DataClass lesson was added." />
   </component>
 </project>

@@ -51,11 +51,11 @@ It's a project that contains various information and examples about the basics o
 - [Getters & Setters](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Getters-Setters.kt)
 - Operator Overloading
 - Inheritance
-- Visibility Modifiers
+- [Visibility Modifiers](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/VisibilityModifiers.kt)
 - Abstract Class
 - Interfaces
 - Nested and Inner Class
-- Data Class
+- [Data Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/DataClass.kt)
 - [Sealed Classes](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/SealedClass.kt)
 - [Companion Objects](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/CompanionObject.kt)
 - [Extension Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ExtensionFunction.kt)
