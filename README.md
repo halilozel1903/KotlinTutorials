@@ -2,19 +2,20 @@
 
 ![Screenshot](kotlin.jpeg)
 
-# What is Kotlin ❓
+# What is Kotlin❓
 
-I added the platforms it supports and great resources. You can access the article from the link below:
+`Kotlin` is a cross-platform, statically typed, general-purpose programming language with type inference. `Kotlin` is designed to interoperate fully with `Java` and the `JVM` version of Kotlin's standard library depends on the `Java` Class Library, but type inference allows its syntax to be more concise.
+
+You can access the article from the link below: 👇🏼
 
 https://medium.com/@halilozel1903/kotlin-nedir-43e312d2dca6
 
-
 ## The goal of the project 🎯
 
-Starting from the most basic topics about Kotlin, learning advanced topics by myself and creating an interactive project by sharing the information I have learned with you. Friends, I'm waiting for your comments and suggestions.
+Starting from the most basic topics about Kotlin, learning advanced topics by myself and creating an interactive project by sharing the information I have learned with you.
 
 ## Project Content 🛠
-It is a project that contains various information and examples about the basics of programming with Kotlin. <br>
+It's a project that contains various information and examples about the basics of programming with Kotlin.
 
 ## Project Subjects 🔖
 - [Hello World](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/HelloWorld.kt)
@@ -24,21 +25,21 @@ It is a project that contains various information and examples about the basics 
 - [Comparison-Equality Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Comparison-EqualityOperators.kt)
 - [Increment-Decrement Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Increment-DecrementOperators.kt)
 - [Logical Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/LogicalOperators.kt)
-- [in Operator](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/inOperator.kt)
+- [In Operator](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/inOperator.kt)
 - [Input-Output](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Input-Output.kt)
 - [Type Conversion](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/TypeConversion.kt)
-- [if Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ifExpression.kt)
-- [if..else..if Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/if..else..ifExpression.kt)
-- [Nested if Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/NestedifExpression.kt)
-- [when Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/When.kt)
-- [while Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/WhileLoop.kt)
-- [do...while Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/do...whileLoop.kt)
-- [for Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ForLoop.kt)
+- [If Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ifExpression.kt)
+- [If..Else..If Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/if..else..ifExpression.kt)
+- [Nested If Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/NestedifExpression.kt)
+- [When Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/When.kt)
+- [While Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/WhileLoop.kt)
+- [Do...While Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/do...whileLoop.kt)
+- [For Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ForLoop.kt)
 - [Arrays](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Arrays.kt)
 - [Range](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Range.kt)
 - [Null Safety](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/NullSafety.kt)
-- [break](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Break.kt)
-- [continue](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Continue.kt)
+- [Break](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Break.kt)
+- [Continue](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Continue.kt)
 - [Functions](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Functions.kt)
 - [Function Overloading](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/MethodOverloading.kt)
 - [Multiform Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/MultiformFunction.kt)
@@ -68,7 +69,7 @@ It is a project that contains various information and examples about the basics 
 
 ## Donation 💸
 
-If this project help 💁 you, you can give me a cup of coffee. ☕
+If this project help 💁 you, can buy me a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
 

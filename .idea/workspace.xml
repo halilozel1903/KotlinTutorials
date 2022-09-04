@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="SealedClass lesson was added.">
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Readme page setting was made.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658355494119</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Readme page setting was made.">
+      <created>1658355606875</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658355606875</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,11 +243,11 @@
     <MESSAGE value="Class-Objects lesson was added." />
     <MESSAGE value="Constructor lesson was added." />
     <MESSAGE value="Getters-Setters lesson was added." />
-    <MESSAGE value="Readme page setting was made." />
     <MESSAGE value="Readme page setting was updated." />
     <MESSAGE value="ExtensionFunction lesson was added." />
     <MESSAGE value="CompanionObject lesson was added." />
     <MESSAGE value="SealedClass lesson was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="SealedClass lesson was added." />
+    <MESSAGE value="Readme page setting was made." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme page setting was made." />
   </component>
 </project>
