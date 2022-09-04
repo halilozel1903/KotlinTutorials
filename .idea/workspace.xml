@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="VisibilityModifiers lesson was added.">
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Lessons were improved.">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataClass.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662314207411</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lessons were improved.">
+      <created>1662314895975</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662314895975</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +273,7 @@
     <MESSAGE value="Readme page setting was made." />
     <MESSAGE value="Readme page setting were updated." />
     <MESSAGE value="VisibilityModifiers lesson was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="VisibilityModifiers lesson was added." />
+    <MESSAGE value="Lessons were improved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lessons were improved." />
   </component>
 </project>
