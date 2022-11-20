@@ -20,7 +20,6 @@ fun main() {
 
     val number2 = 7.0 // number2 değeri verildi.
 
-
     var result: Double = number1 + number2 // sonuç değeri tanımlandı. // toplama işlemi yapıldı.
 
     println("$number1 + $number2 = $result")
@@ -46,7 +45,6 @@ fun main() {
     result = number1 % number2 // mod alma işlemi yapıldı.
 
     println("$number1 % $number2 = $result") // mod sonucu ekranda gösterildi.
-
 
     // + operatörü ayrıca String değerlerinin birleştirilmesi için kullanılır.
 

@@ -14,10 +14,9 @@
 
  */
 
-
 /*
 
-    Number Type
+    Number Type:
 
     Kotlin'deki sayılar Java'ya benzer.
     Sayıları temsil eden 6 yerleşik tip vardır :
@@ -34,7 +33,6 @@
 fun main() {
 
     /*
-
     Byte
 
     Byte veri türü -128 ila 127 (8 bit imzalı ikili tamsayı) değerlerine sahip olabilir.

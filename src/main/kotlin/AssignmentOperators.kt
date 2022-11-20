@@ -12,9 +12,7 @@ a %= b	a = a % b
 
 
 fun main() {
-
     var a = 10
-
     val b = 5
 
     val sonuc: Int = a + b  // sonuc değişkenine a ve b değerler toplamı atandı.

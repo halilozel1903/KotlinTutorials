@@ -30,6 +30,4 @@ fun main() {
         arrayOf(1, true, 19.00, "halil") // any belli bir tür belirtmeden bütün türlerden kullanmaya izin verir.
 
     println(any_array.isEmpty()) // dizinin içeriği boş mu ? diye kontrol edilir.
-
-
 }
