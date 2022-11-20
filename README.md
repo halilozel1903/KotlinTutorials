@@ -11,7 +11,6 @@ You can access the article from the link below: 👇🏼
 https://medium.com/@halilozel1903/kotlin-nedir-43e312d2dca6
 
 ## The goal of the project 🎯
-
 Starting from the most basic topics about Kotlin, learning advanced topics by myself and creating an interactive project by sharing the information I have learned with you.
 
 ## Project Content 🛠
@@ -61,20 +60,18 @@ It's a project that contains various information and examples about the basics o
 - [Extension Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ExtensionFunction.kt)
 
 ## Resources  📚
-
 1. https://kotlinlang.org/docs/kotlin-docs.pdf
 2. https://www.programiz.com/kotlin-programming
 3. https://www.tutorialspoint.com/kotlin/
 4. https://www.geeksforgeeks.org/kotlin-programming-language/
 
 ## Donation 💸
-
 If this project help 💁 you, can buy me a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
 
 
-## License  ℹ️
+## License ℹ️
 ```
 MIT License
 
