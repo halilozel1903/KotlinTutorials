@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="New link added in ReadMe." />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Support and License values updated.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Inheritance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,16 +47,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.OperatorOverloadingKt">
-    <configuration name="CompanionObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompanionObjectKt" />
+  <component name="RunManager" selected="Kotlin.InheritanceKt">
+    <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataClassKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataClassKt" />
+    <configuration name="InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InheritanceKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InheritanceKt" />
         <item itemvalue="Kotlin.OperatorOverloadingKt" />
         <item itemvalue="Kotlin.DataClassKt" />
         <item itemvalue="Kotlin.VisibilityModifiersKt" />
         <item itemvalue="Kotlin.SealedClassKt" />
-        <item itemvalue="Kotlin.CompanionObjectKt" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671830262436</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Support and License values updated.">
+      <created>1673456366131</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673456366131</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +341,7 @@
     <MESSAGE value="Code refactor made." />
     <MESSAGE value="Operator Overloading lesson added." />
     <MESSAGE value="New link added in ReadMe." />
-    <option name="LAST_COMMIT_MESSAGE" value="New link added in ReadMe." />
+    <MESSAGE value="Support and License values updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Support and License values updated." />
   </component>
 </project>
