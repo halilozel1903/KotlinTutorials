@@ -65,7 +65,7 @@ It's a project that contains various information and examples about the basics o
 3. https://www.tutorialspoint.com/kotlin/
 4. https://www.geeksforgeeks.org/kotlin-programming-language/
 
-## Donation 💸
+## Support 💸
 If this project help 💁 you, can buy me a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
@@ -75,7 +75,7 @@ If this project help 💁 you, can buy me a cup of coffee. ☕
 ```
 MIT License
 
-Copyright (c) 2022 Halil OZEL
+Copyright (c) 2023 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
