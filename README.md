@@ -1,6 +1,6 @@
 # Kotlin Tutorials 👨🏻‍💻
 
-![Screenshot](kotlin.jpeg)
+![Screenshot](kotlin2023.jpeg)
 
 # What is Kotlin❓
 
