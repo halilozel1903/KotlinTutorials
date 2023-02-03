@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Abstract Class lesson added.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InterfaceSample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Interface lesson added.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NestedClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,31 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowCommit.ShowToolbar": "false",
-    "last_opened_file_path": "/Users/halilozel1903/IdeaProjects/KotlinTutorials",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowCommit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/halilozel1903/IdeaProjects/KotlinTutorials&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InterfaceSampleKt">
+  <component name="RunManager" selected="Kotlin.NestedClassKt">
     <configuration name="AbstractClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractClassKt" />
-      <module name="KotlinTutorials" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataClassKt" />
       <module name="KotlinTutorials" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,6 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NestedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NestedClassKt" />
+      <module name="KotlinTutorials" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperatorOverloadingKt" />
       <module name="KotlinTutorials" />
@@ -87,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NestedClassKt" />
         <item itemvalue="Kotlin.InterfaceSampleKt" />
         <item itemvalue="Kotlin.AbstractClassKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
         <item itemvalue="Kotlin.OperatorOverloadingKt" />
-        <item itemvalue="Kotlin.DataClassKt" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675428039863</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Interface lesson added.">
+      <created>1675428949156</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675428949156</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +354,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Example files was updated." />
     <MESSAGE value="Code refactor was made." />
     <MESSAGE value="Code reformat was made." />
     <MESSAGE value="InfixFunction lesson was added." />
@@ -373,7 +378,8 @@
     <MESSAGE value="README.md file updated." />
     <MESSAGE value="Kotlin image file's name changed." />
     <MESSAGE value="Abstract Class lesson added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract Class lesson added." />
+    <MESSAGE value="Interface lesson added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface lesson added." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
