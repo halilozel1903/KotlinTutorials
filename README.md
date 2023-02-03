@@ -51,9 +51,10 @@ It's a project that contains various information and examples about the basics o
 - [Operator Overloading](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/OperatorOverloading.kt)
 - [Inheritance](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Inheritance.kt)
 - [Visibility Modifiers](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/VisibilityModifiers.kt)
-- Abstract Class
-- Interfaces
-- Nested and Inner Class
+- [Abstract Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/AbstractClass.kt)
+- [Interfaces](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InterfaceSample.kt)
+- [Nested Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/NestedClass.kt)
+- [Inner Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InnerClass.kt)
 - [Data Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/DataClass.kt)
 - [Sealed Classes](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/SealedClass.kt)
 - [Companion Objects](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/CompanionObject.kt)
@@ -66,7 +67,7 @@ It's a project that contains various information and examples about the basics o
 4. https://www.geeksforgeeks.org/kotlin-programming-language/
 
 ## Support 💸
-If this project help 💁 you, can buy me a cup of coffee. ☕
+If this project help 💁 you can buy me a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
 
