@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Inner Class lesson added.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="New Links added in ReadMe page." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -349,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675429814344</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="New Links added in ReadMe page.">
+      <created>1675430002100</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675430002100</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +372,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InfixFunction lesson was added." />
     <MESSAGE value="Class-Objects lesson was added." />
     <MESSAGE value="Constructor lesson was added." />
     <MESSAGE value="Getters-Setters lesson was added." />
@@ -392,7 +396,8 @@
     <MESSAGE value="Interface lesson added." />
     <MESSAGE value="Nested Class lesson added." />
     <MESSAGE value="Inner Class lesson added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inner Class lesson added." />
+    <MESSAGE value="New Links added in ReadMe page." />
+    <option name="LAST_COMMIT_MESSAGE" value="New Links added in ReadMe page." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
