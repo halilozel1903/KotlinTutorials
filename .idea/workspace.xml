@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Inheritance lesson added.">
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Kotlin image file's name changed.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AbstractClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -46,7 +48,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InheritanceKt">
+  <component name="RunManager" selected="Kotlin.AbstractClassKt">
+    <configuration name="AbstractClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractClassKt" />
+      <module name="KotlinTutorials" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataClassKt" />
       <module name="KotlinTutorials" />
@@ -68,13 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SealedClassKt" />
-      <module name="KotlinTutorials" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VisibilityModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VisibilityModifiersKt" />
       <module name="KotlinTutorials" />
@@ -84,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AbstractClassKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
         <item itemvalue="Kotlin.OperatorOverloadingKt" />
         <item itemvalue="Kotlin.DataClassKt" />
         <item itemvalue="Kotlin.VisibilityModifiersKt" />
-        <item itemvalue="Kotlin.SealedClassKt" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673456784687</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="README.md file updated.">
+      <created>1673456926640</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673456926640</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Kotlin image file's name changed.">
+      <created>1673457062399</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1673457062399</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,8 +340,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project settings was made." />
-    <MESSAGE value="README.md was added." />
     <MESSAGE value="gitignore file was added." />
     <MESSAGE value="Example files was updated." />
     <MESSAGE value="Code refactor was made." />
@@ -349,6 +363,8 @@
     <MESSAGE value="New link added in ReadMe." />
     <MESSAGE value="Support and License values updated." />
     <MESSAGE value="Inheritance lesson added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance lesson added." />
+    <MESSAGE value="README.md file updated." />
+    <MESSAGE value="Kotlin image file's name changed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin image file's name changed." />
   </component>
 </project>
