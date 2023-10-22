@@ -7,15 +7,12 @@ Daha esnek bir yapıya sahip olan When ile daha kolay şartları yapabileceksini
 
 fun main() {
 
-
     val a = 12
     val b = 5
 
     print("Enter operator either +, -, * or / : ") // istenilen işlem ile ilgili seçeneği seçiliyor.
 
-    val operator = readLine() // seçilen operatör okunuyor.
-
-    val result = when (operator) {
+    val result = when (val operator = readLine()) { // seçilen operatör okunuyor.
         "+" -> a + b // + ise : toplama işlemi
         "-" -> a - b // - ise : çıkarma işlemi
         "*" -> a * b // * ise : çarpma işlemi
@@ -45,6 +42,4 @@ fun main() {
         in 1..10 -> println("A positive number less than 11.") // 1 ile 10 arasında ise
         in 10..100 -> println("A positive number between 10 and 100 (inclusive)") // 10 ile 100 arasında ise
     }
-
-
 }
