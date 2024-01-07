@@ -12,7 +12,7 @@ fun main() {
 
     print("Enter operator either +, -, * or / : ") // istenilen işlem ile ilgili seçeneği seçiliyor.
 
-    val result = when (val operator = readLine()) { // seçilen operatör okunuyor.
+    val result = when (val operator = readlnOrNull()) { // seçilen operatör okunuyor.
         "+" -> a + b // + ise : toplama işlemi
         "-" -> a - b // - ise : çıkarma işlemi
         "*" -> a * b // * ise : çarpma işlemi
