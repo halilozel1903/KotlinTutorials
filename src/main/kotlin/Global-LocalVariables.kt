@@ -23,7 +23,7 @@ fun fun2(): Unit {
     // println("fun2-global değişken : $localNumber")
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
     println("main-global değişken : $globalNumber")
     // println("main-global değişken : "+localNumber)
