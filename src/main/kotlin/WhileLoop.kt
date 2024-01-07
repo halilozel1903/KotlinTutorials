@@ -14,8 +14,6 @@ while (testExpression) {
 
 
 fun main() {
-
-
     var i = 1 // i değeri verildi.
 
     while (i <= 5) { // i 5'e eşit veya 5 ten küçük olana kadar
@@ -23,9 +21,7 @@ fun main() {
         ++i // önden arttırım
     }
 
-
     // 0 dan 10 'a kadar olan sayıların toplamını bulan program
-
     var sum = 0 // toplama değişkeni tanımlandı.
     var j = 10 // j değeri verildi.
 
@@ -34,5 +30,4 @@ fun main() {
         --j // j değerini azalt ve döngüye devam et
     }
     println("sum = $sum") // toplam değerini yazdır.
-
 }
