@@ -59,11 +59,8 @@ fun main() {
 
      */
 
-
     val number_1: Int = 545344 // int türünde bir değişken
     val number_2: Byte = number_1.toByte() // int türündeki değişken byte türüne dönüştürülüyor.
     println("number_1 = $number_1") // 545344
     println("number_2 = $number_2") // 64
-
-
 }

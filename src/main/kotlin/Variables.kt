@@ -44,5 +44,4 @@ fun main() {
 
     3 - var name : String = "Name"  // 3. adımda tek satırda hem değişken türü hem de içeriği verilir.
      */
-
 }
