@@ -4,7 +4,6 @@
  Sealed classes ensure type safety by restricting the types to be matched at compile-time rather than at runtime.
  */
 
-
 sealed class Demo {
     object One : Demo() {
         fun display() {
