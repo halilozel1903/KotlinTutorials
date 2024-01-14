@@ -1,8 +1,6 @@
-/*
-
-when yapısı Javada kullanılan switch-case yapısına benzemektedir.
+/**
+When yapısı Javada kullanılan switch-case yapısına benzemektedir.
 Daha esnek bir yapıya sahip olan When ile daha kolay şartları yapabileceksiniz.
-
  */
 
 fun main() {

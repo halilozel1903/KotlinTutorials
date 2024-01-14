@@ -1,15 +1,12 @@
-/*
-
+/**
 While döngüsü, programın bir bölümünü birkaç kez yinelemek için kullanılır.
 Döngü, koşul doğru olana kadar kod bloğunu yürütür.
-
 
 Syntax
 
 while (testExpression) {
     // while döngüsünün içindeki kodlar
 }
-
  */
 
 
