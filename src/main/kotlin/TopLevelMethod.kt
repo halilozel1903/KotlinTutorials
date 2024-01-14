@@ -1,5 +1,5 @@
-import TopLevelMethod.Simple
-import TopLevelMethod.topLevelMethods
+import toplevelmethod.Simple
+import toplevelmethod.topLevelMethods
 
 
 fun main() {
