@@ -1,8 +1,7 @@
 var i = 5 // global değişken tanımı
 
 /*
-
-    bir metot kendi kendine çalıştırılabiliyorsa bu metotlara özyinelemeli metotlar denir.
+    Bir metot kendi kendine çalıştırılabiliyorsa bu metotlara özyinelemeli metotlar denir.
     Değişken sıfır veya sıfırdan büyük olduğu sürece metot ekrana mesaj yazdıktan sonra
     kendisini çağırır. Her çağrımda i değişkeni azalır.
 
