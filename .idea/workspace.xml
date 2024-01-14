@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Clean code made." />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="When.kt changed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,16 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowCommit.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/halilozel1903/IdeaProjects/KotlinTutorials&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.Global_LocalVariablesKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowCommit.ShowToolbar": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/halilozel1903/IdeaProjects/KotlinTutorials",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
@@ -107,6 +109,13 @@
         <item itemvalue="Kotlin.AbstractClassKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-249ae16d76d6-974e3994" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -386,7 +395,39 @@
       <option name="project" value="LOCAL" />
       <updated>1697999529598</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Language,api version upgraded to 1.9">
+      <option name="closed" value="true" />
+      <created>1704623171010</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1704623171010</updated>
+    </task>
+    <task id="LOCAL-00040" summary="App updated.">
+      <option name="closed" value="true" />
+      <created>1704623185776</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1704623185776</updated>
+    </task>
+    <task id="LOCAL-00041" summary="WhileLoop.kt updated.">
+      <option name="closed" value="true" />
+      <created>1704623344210</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1704623344210</updated>
+    </task>
+    <task id="LOCAL-00042" summary="When.kt changed.">
+      <option name="closed" value="true" />
+      <created>1704624150985</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1704624150985</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,10 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Getters-Setters lesson was added." />
-    <MESSAGE value="ExtensionFunction lesson was added." />
-    <MESSAGE value="CompanionObject lesson was added." />
-    <MESSAGE value="SealedClass lesson was added." />
     <MESSAGE value="Readme page setting were updated." />
     <MESSAGE value="VisibilityModifiers lesson was added." />
     <MESSAGE value="Lessons were improved." />
@@ -429,7 +466,11 @@
     <MESSAGE value="New Links added in ReadMe page." />
     <MESSAGE value="Project settings made." />
     <MESSAGE value="Clean code made." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean code made." />
+    <MESSAGE value="Language,api version upgraded to 1.9" />
+    <MESSAGE value="App updated." />
+    <MESSAGE value="WhileLoop.kt updated." />
+    <MESSAGE value="When.kt changed." />
+    <option name="LAST_COMMIT_MESSAGE" value="When.kt changed." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
