@@ -1,100 +1,88 @@
-# Kotlin Tutorials 👨🏻‍💻
+# Kotlin Tutorials - 2026 Professional Edition
 
-![Screenshot](kotlin2023.jpeg)
+![Project image](kotlin2023.jpeg)
 
-# What is Kotlin❓
+This repository is a structured Kotlin learning project that starts with fundamentals and moves toward modern Kotlin 2.x practices used in production.
 
-`Kotlin` is a cross-platform, statically typed, general-purpose programming language with type inference. `Kotlin` is designed to interoperate fully with `Java` and the `JVM` version of Kotlin's standard library depends on the `Java` Class Library, but type inference allows its syntax to be more concise.
+## What is included
+- A large set of topic-focused Kotlin source files under `src/main/kotlin/`.
+- A dedicated modern module under `src/main/kotlin/modern2026/`.
+- Gradle Kotlin DSL setup (`build.gradle.kts`) with Kotlin 2.x.
+- Coroutines, Flow, and Serialization examples.
+- Test infrastructure with `kotlin("test")` + JUnit 5.
 
-You can access the article from the link below: 👇🏼
+## Tech stack
+- Kotlin: `2.0.21`
+- Gradle Wrapper: `9.0.0`
+- JVM Toolchain: `17`
+- Coroutines: `kotlinx-coroutines-core:1.10.2`
+- Serialization: `kotlinx-serialization-json:1.8.1`
 
-https://medium.com/@halilozel1903/kotlin-nedir-43e312d2dca6
+## Quick start
+Run from the project root:
 
-## The goal of the project 🎯
-Starting from the most basic topics about Kotlin, learning advanced topics by myself and creating an interactive project by sharing the information I have learned with you.
-
-## Project Content 🛠
-It's a project that contains various information and examples about the basics of programming with Kotlin.
-
-## Project Subjects 🔖
-- [Hello World](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/HelloWorld.kt)
-- [Basic Types](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/BasicTypes.kt)
-- [Arithmetic Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ArithmeticOperators.kt)
-- [Assignment Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/AssignmentOperators.kt)
-- [Comparison-Equality Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Comparison-EqualityOperators.kt)
-- [Increment-Decrement Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Increment-DecrementOperators.kt)
-- [Logical Operators](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/LogicalOperators.kt)
-- [In Operator](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/inOperator.kt)
-- [Input-Output](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Input-Output.kt)
-- [Type Conversion](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/TypeConversion.kt)
-- [If Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ifExpression.kt)
-- [If..Else..If Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/if..else..ifExpression.kt)
-- [Nested If Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/NestedifExpression.kt)
-- [When Expression](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/When.kt)
-- [While Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/WhileLoop.kt)
-- [Do...While Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/do...whileLoop.kt)
-- [For Loop](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ForLoop.kt)
-- [Arrays](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Arrays.kt)
-- [Range](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Range.kt)
-- [Null Safety](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/NullSafety.kt)
-- [Break](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Break.kt)
-- [Continue](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Continue.kt)
-- [Functions](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Functions.kt)
-- [Function Overloading](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/MethodOverloading.kt)
-- [Multiform Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/MultiformFunction.kt)
-- [Top Level Method](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/TopLevelMethod.kt)
-- [Recursive Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/RecursiveFunction.kt)
-- [Infix Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InfixFunction.kt)
-- [Class and Objects](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Class-Objects.kt)
-- [Constructor](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Constructor.kt)
-- [Getters & Setters](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Getters-Setters.kt)
-- [Operator Overloading](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/OperatorOverloading.kt)
-- [Inheritance](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/Inheritance.kt)
-- [Visibility Modifiers](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/VisibilityModifiers.kt)
-- [Abstract Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/AbstractClass.kt)
-- [Interfaces](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InterfaceSample.kt)
-- [Nested Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/NestedClass.kt)
-- [Inner Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/InnerClass.kt)
-- [Data Class](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/DataClass.kt)
-- [Sealed Classes](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/SealedClass.kt)
-- [Companion Objects](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/CompanionObject.kt)
-- [Extension Function](https://github.com/halilozel1903/KotlinTutorials/blob/master/src/main/kotlin/ExtensionFunction.kt)
-
-## Resources  📚
-1. https://kotlinlang.org/docs/kotlin-docs.pdf
-2. https://www.programiz.com/kotlin-programming
-3. https://www.tutorialspoint.com/kotlin/
-4. https://www.geeksforgeeks.org/kotlin-programming-language/
-
-## Support 💸
-If this project help 💁 you can buy me a cup of coffee. ☕
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
-
-
-## License ℹ️
+```bash
+./gradlew clean build
+./gradlew test
+./gradlew run
 ```
+
+## 2026 curriculum roadmap
+
+| Track | Topics | Key Files | Level | Estimated Time |
+|---|---|---|---|---|
+| Foundations | Variables, types, operators, input/output | `Variables.kt`, `BasicTypes.kt`, `TypeConversion.kt`, `Input-Output.kt` | Beginner | 4-6 hours |
+| Control Flow | `if`, `when`, loops, ranges, branch control | `ifExpression.kt`, `When.kt`, `ForLoop.kt`, `WhileLoop.kt`, `Range.kt`, `Break.kt`, `Continue.kt` | Beginner | 4-5 hours |
+| Functions | Function declarations, overloading, recursion, infix, extensions | `Functions.kt`, `MethodOverloading.kt`, `RecursiveFunction.kt`, `InfixFunction.kt`, `ExtensionFunction.kt` | Beginner -> Intermediate | 5-7 hours |
+| OOP Core | Classes, constructors, inheritance, interfaces, visibility | `Class-Objects.kt`, `Constructor.kt`, `Inheritance.kt`, `InterfaceSample.kt`, `VisibilityModifiers.kt` | Intermediate | 6-8 hours |
+| Modeling | Data classes, sealed hierarchies, companion/object usage | `DataClass.kt`, `SealedClass.kt`, `CompanionObject.kt` | Intermediate | 3-4 hours |
+| Modern 2026 | Sealed interfaces, data object, value class, Result API | `modern2026/SealedAndDataObject2026.kt`, `modern2026/ValueClassAndTypeSafety2026.kt`, `modern2026/ResultAndScopeFunctions2026.kt` | Intermediate -> Advanced | 4-6 hours |
+| Async & Streams | Structured concurrency, `suspend`, Flow operators | `modern2026/CoroutinesFlow2026.kt` | Advanced | 3-4 hours |
+| Data Interchange | JSON encode/decode with kotlinx.serialization | `modern2026/Serialization2026.kt` | Advanced | 2-3 hours |
+| Validation & Testing | Unit test basics and smoke tests | `src/test/kotlin/modern2026/Modern2026SmokeTest.kt` | Intermediate | 2-3 hours |
+
+Total guided time: approximately 33-46 hours.
+
+## Modern 2026 lesson runner
+- Main runner: `src/main/kotlin/modern2026/Modern2026Runner.kt`
+- It runs the complete modern sequence:
+  - Sealed interface + data object
+  - Value class + type-safe validation
+  - Result + scope functions
+  - Coroutines + Flow
+  - Serialization
+
+## Testing
+The repository includes smoke tests for the modern lessons.
+
+```bash
+./gradlew test --info
+```
+
+## Suggested study strategy
+1. Finish one curriculum track at a time.
+2. Run each lesson file and predict output before execution.
+3. Rewrite examples in your own words and add one custom variation.
+4. Keep notes on modeling decisions (sealed vs enum vs interface).
+5. Revisit modern2026 track after fundamentals for deeper understanding.
+
+## Learning outcomes
+After completing this repository, a learner should be able to:
+- Write clean Kotlin syntax for day-to-day application code.
+- Model states and domain rules safely with modern language features.
+- Build asynchronous pipelines with coroutines and Flow.
+- Serialize and deserialize typed JSON payloads.
+- Set up and verify Kotlin code with Gradle + tests.
+
+## References
+- https://kotlinlang.org/docs/home.html
+- https://kotlinlang.org/docs/coroutines-overview.html
+- https://kotlinlang.org/docs/serialization.html
+- https://github.com/Kotlin/kotlinx.coroutines
+- https://github.com/Kotlin/kotlinx.serialization
+
+## License
 MIT License
 
-Copyright (c) 2023 Halil OZEL
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 
