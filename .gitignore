@@ -1,2 +1,5 @@
 .idea
-KotlinTutorials.iml
+.gradle
+build
+out
+*.iml
