@@ -1,27 +1,31 @@
 /*
- A sealed class defines a set of subclasses within it.
- It is used when it is known in advance that a type will conform to one of the subclass types.
- Sealed classes ensure type safety by restricting the types to be matched at compile-time rather than at runtime.
+ Sealed yapilar, durum modellemesini kapali bir hiyerarsi ile yapar.
+ Boylece when kullaniminda tum olasiliklar compile-time'da zorunlu hale gelir.
  */
 
-sealed class Demo {
-    object One : Demo() {
-        fun display() {
-            println("Object A of Sealed class Demo ")
-        }
-    }
-
-    object Two : Demo() {
-        fun display() {
-            println("Object B of sealed class Demo")
-        }
-    }
+sealed class UiState {
+    data object Idle : UiState()
+    data object Loading : UiState()
+    data class Success(val message: String) : UiState()
+    data class Error(val reason: String) : UiState()
 }
 
+fun render(state: UiState): String =
+    when (state) {
+        UiState.Idle -> "State: Idle"
+        UiState.Loading -> "State: Loading"
+        is UiState.Success -> "State: Success -> ${state.message}"
+        is UiState.Error -> "State: Error -> ${state.reason}"
+    }
+
 fun main() {
-    val objOne = Demo.One
-    objOne.display()
-    val objTwo = Demo.Two
-    objTwo.display()
+    val states = listOf(
+        UiState.Idle,
+        UiState.Loading,
+        UiState.Success("Data loaded"),
+        UiState.Error("Network timeout")
+    )
+
+    states.forEach { println(render(it)) }
 }
 
