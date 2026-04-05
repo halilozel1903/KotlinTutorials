@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Blank items deleted.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/Modern2026Runner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/ResultAndScopeFunctions2026.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/SealedAndDataObject2026.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/ValueClassAndTypeSafety2026.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" afterDir="false" />
-    </list>
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Refactor sealed class to implement UiState for better state management" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +14,23 @@
     <persistenceIdMap>
       <entry key="_/Users/halilozel1903/IdeaProjects/KotlinTutorials" value="1tG5IRPMlDDgyxo4x8TBDPr4E6s" />
     </persistenceIdMap>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +56,7 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.0.0-bin/d6wjpkvcgsg3oed0qlfss3wgl/gradle-9.0.0" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-18.0.1.1/Contents/Home" gradleVersion="9.0.0" />
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -403,54 +412,6 @@
       <option name="project" value="LOCAL" />
       <updated>1675430367940</updated>
     </task>
-    <task id="LOCAL-00038" summary="Clean code made.">
-      <option name="closed" value="true" />
-      <created>1697999529598</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1697999529598</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Language,api version upgraded to 1.9">
-      <option name="closed" value="true" />
-      <created>1704623171010</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1704623171010</updated>
-    </task>
-    <task id="LOCAL-00040" summary="App updated.">
-      <option name="closed" value="true" />
-      <created>1704623185776</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1704623185776</updated>
-    </task>
-    <task id="LOCAL-00041" summary="WhileLoop.kt updated.">
-      <option name="closed" value="true" />
-      <created>1704623344210</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1704623344210</updated>
-    </task>
-    <task id="LOCAL-00042" summary="When.kt changed.">
-      <option name="closed" value="true" />
-      <created>1704624150985</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1704624150985</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Grammar fixed for RecursiveFunction.kt">
-      <option name="closed" value="true" />
-      <created>1705230805097</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1705230805097</updated>
-    </task>
     <task id="LOCAL-00044" summary="Simple.kt renamed.">
       <option name="closed" value="true" />
       <created>1705230822216</created>
@@ -499,7 +460,55 @@
       <option name="project" value="LOCAL" />
       <updated>1705231058683</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Add Kotlin 2026 lessons on sealed interfaces, value classes, and scope functions">
+      <option name="closed" value="true" />
+      <created>1775401109776</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1775401109777</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Update workspace.xml to remove blank items and add new task summaries">
+      <option name="closed" value="true" />
+      <created>1775401115897</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1775401115897</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Update .gitignore to include Gradle and build artifacts">
+      <option name="closed" value="true" />
+      <created>1775401307960</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1775401307961</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add settings.gradle.kts to define root project name">
+      <option name="closed" value="true" />
+      <created>1775401319258</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1775401319259</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Refactor sealed class to implement UiState for better state management">
+      <option name="closed" value="true" />
+      <created>1775401329109</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1775401329109</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Add Gradle build configuration and wrapper for project setup">
+      <option name="closed" value="true" />
+      <created>1775401366389</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1775401366389</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,11 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code refactor made." />
-    <MESSAGE value="Operator Overloading lesson added." />
-    <MESSAGE value="New link added in ReadMe." />
-    <MESSAGE value="Support and License values updated." />
-    <MESSAGE value="Inheritance lesson added." />
     <MESSAGE value="README.md file updated." />
     <MESSAGE value="Kotlin image file's name changed." />
     <MESSAGE value="Abstract Class lesson added." />
@@ -542,7 +546,12 @@
     <MESSAGE value="Code reformat made." />
     <MESSAGE value="Blank items removed." />
     <MESSAGE value="Blank items deleted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Blank items deleted." />
+    <MESSAGE value="Add Kotlin 2026 lessons on sealed interfaces, value classes, and scope functions" />
+    <MESSAGE value="Update workspace.xml to remove blank items and add new task summaries" />
+    <MESSAGE value="Update .gitignore to include Gradle and build artifacts" />
+    <MESSAGE value="Add settings.gradle.kts to define root project name" />
+    <MESSAGE value="Refactor sealed class to implement UiState for better state management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor sealed class to implement UiState for better state management" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
