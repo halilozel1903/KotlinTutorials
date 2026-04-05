@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="When.kt changed." />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Blank items deleted.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/Modern2026Runner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/ResultAndScopeFunctions2026.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/SealedAndDataObject2026.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/modern2026/ValueClassAndTypeSafety2026.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/halilozel1903/IdeaProjects/KotlinTutorials" value="1tG5IRPMlDDgyxo4x8TBDPr4E6s" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +65,8 @@
     "Kotlin.Global_LocalVariablesKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "ToolWindowCommit.ShowToolbar": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -113,7 +129,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-18.0.2-corretto-18.0.2-249ae16d76d6-974e3994" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
@@ -427,7 +443,63 @@
       <option name="project" value="LOCAL" />
       <updated>1704624150985</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Grammar fixed for RecursiveFunction.kt">
+      <option name="closed" value="true" />
+      <created>1705230805097</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1705230805097</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Simple.kt renamed.">
+      <option name="closed" value="true" />
+      <created>1705230822216</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1705230822216</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Imports renamed.">
+      <option name="closed" value="true" />
+      <created>1705230845321</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1705230845321</updated>
+    </task>
+    <task id="LOCAL-00046" summary="workspace.xml updated.">
+      <option name="closed" value="true" />
+      <created>1705230874118</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1705230874118</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Code reformat made.">
+      <option name="closed" value="true" />
+      <created>1705231022213</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1705231022213</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Blank items removed.">
+      <option name="closed" value="true" />
+      <created>1705231045839</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1705231045839</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Blank items deleted.">
+      <option name="closed" value="true" />
+      <created>1705231058683</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1705231058683</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,13 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Readme page setting were updated." />
-    <MESSAGE value="VisibilityModifiers lesson was added." />
-    <MESSAGE value="Lessons were improved." />
-    <MESSAGE value="DataClass lesson was added." />
-    <MESSAGE value="Readme page setting was made." />
-    <MESSAGE value="Readme page setting was updated." />
-    <MESSAGE value="Readme page setting updated." />
     <MESSAGE value="Code refactor made." />
     <MESSAGE value="Operator Overloading lesson added." />
     <MESSAGE value="New link added in ReadMe." />
@@ -470,10 +535,25 @@
     <MESSAGE value="App updated." />
     <MESSAGE value="WhileLoop.kt updated." />
     <MESSAGE value="When.kt changed." />
-    <option name="LAST_COMMIT_MESSAGE" value="When.kt changed." />
+    <MESSAGE value="Grammar fixed for RecursiveFunction.kt" />
+    <MESSAGE value="Simple.kt renamed." />
+    <MESSAGE value="Imports renamed." />
+    <MESSAGE value="workspace.xml updated." />
+    <MESSAGE value="Code reformat made." />
+    <MESSAGE value="Blank items removed." />
+    <MESSAGE value="Blank items deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="Blank items deleted." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
