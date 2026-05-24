@@ -9,3 +9,4 @@ var author: String = "Frank Herbert"
     set(value) {
         field = value.trim()
     }
+
