@@ -15,8 +15,13 @@ class Check {
     }
 }
 
-fun main() {
+fun lessonInfixFunction() {
     val check = Check()
     val result = check dataType "Halil"
     println(result)
 }
+
+fun main() {
+    lessonInfixFunction()
+}
+
