@@ -4,45 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Add Coroutines and Flow lesson implementation for structured concurrency">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/modern2026/Modern2026SmokeTest.kt" afterDir="false" />
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Refactor comments and improve code readability across multiple files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ArithmeticOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ArithmeticOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AssignmentOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/AssignmentOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BasicTypes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BasicTypes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Break.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Break.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Comparison-EqualityOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Comparison-EqualityOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Continue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Continue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Class-Objects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Class-Objects.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ForLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ForLoop.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Global-LocalVariables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Global-LocalVariables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HelloWorld.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Increment-DecrementOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Increment-DecrementOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Input-Output.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Input-Output.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LogicalOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LogicalOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MapExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/MapExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MethodOverloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/MethodOverloading.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MultiformFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/MultiformFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NestedifExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NestedifExpression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Getters-Setters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Getters-Setters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InfixFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/InfixFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NestedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NestedClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/OperatorOverloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/OperatorOverloading.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Range.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/RecursiveFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/RecursiveFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TopLevelMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TopLevelMethod.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TypeConversion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TypeConversion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/When.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/When.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhileLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/WhileLoop.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/do...whileLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/do...whileLoop.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/if..else..ifExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/if..else..ifExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ifExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ifExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/inOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/inOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/toplevelmethod/Simple.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/toplevelmethod/Simple.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="584144bc-4e75-4dc3-aa00-232a29c1a3b3" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="576cdfe3-366d-4894-b00b-e0d75aeca6ce" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Processing" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="584144bc-4e75-4dc3-aa00-232a29c1a3b3" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
@@ -78,18 +88,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/halilozel1903/KotlinTutorials.git",
+    "accountId": "65eb18fe-f125-44bb-8367-27beac8eb548"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="65eb18fe-f125-44bb-8367-27beac8eb548" />
-        <option name="url" value="https://github.com/halilozel1903/KotlinTutorials.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+}]]></component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.0.0-bin/d6wjpkvcgsg3oed0qlfss3wgl/gradle-9.0.0" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-18.0.1.1/Contents/Home" gradleVersion="9.0.0" />
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -105,7 +112,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.KotlinTutorials [:BreakKt.main()].executor": "Run",
+    "Gradle.KotlinTutorials [:ContinueKt.main()].executor": "Run",
     "Gradle.KotlinTutorials [:Global_LocalVariablesKt.main()].executor": "Run",
+    "Gradle.KotlinTutorials [:MultiformFunctionKt.main()].executor": "Run",
     "Gradle.KotlinTutorials [:modern2026.CoroutinesFlow2026Kt.main()].executor": "Run",
     "Kotlin.Global_LocalVariablesKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -125,7 +135,21 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CoroutinesFlow2026Kt">
+  <component name="RunManager" selected="Kotlin.MultiformFunctionKt">
+    <configuration name="BreakKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BreakKt" />
+      <module name="KotlinTutorials.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContinueKt" />
+      <module name="KotlinTutorials.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoroutinesFlow2026Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modern2026.CoroutinesFlow2026Kt" />
       <module name="KotlinTutorials.main" />
@@ -140,41 +164,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Global_LocalVariablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Global_LocalVariablesKt" />
-      <module name="KotlinTutorials" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InnerClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClassKt" />
-      <module name="KotlinTutorials" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NestedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NestedClassKt" />
-      <module name="KotlinTutorials" />
+    <configuration name="MultiformFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiformFunctionKt" />
+      <module name="KotlinTutorials.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MultiformFunctionKt" />
+        <item itemvalue="Kotlin.BreakKt" />
+        <item itemvalue="Kotlin.ContinueKt" />
         <item itemvalue="Kotlin.CoroutinesFlow2026Kt" />
         <item itemvalue="Kotlin.Global_LocalVariablesKt (1)" />
-        <item itemvalue="Kotlin.Global_LocalVariablesKt" />
-        <item itemvalue="Kotlin.InnerClassKt" />
-        <item itemvalue="Kotlin.NestedClassKt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.33514.17" />
       </set>
     </attachedChunks>
   </component>
@@ -448,14 +458,6 @@
       <option name="project" value="LOCAL" />
       <updated>1675430367940</updated>
     </task>
-    <task id="LOCAL-00049" summary="Blank items deleted.">
-      <option name="closed" value="true" />
-      <created>1705231058683</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1705231058683</updated>
-    </task>
     <task id="LOCAL-00050" summary="Add Kotlin 2026 lessons on sealed interfaces, value classes, and scope functions">
       <option name="closed" value="true" />
       <created>1775401109776</created>
@@ -544,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775402989351</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Refactor comments and improve code readability across multiple files">
+      <option name="closed" value="true" />
+      <created>1779640469291</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1779640469292</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Inner Class lesson added." />
     <MESSAGE value="New Links added in ReadMe page." />
     <MESSAGE value="Project settings made." />
     <MESSAGE value="Clean code made." />
@@ -587,7 +596,8 @@
     <MESSAGE value="Add serialization functionality for LessonCard data class" />
     <MESSAGE value="Update main function to call lesson functions for improved execution flow" />
     <MESSAGE value="Add Coroutines and Flow lesson implementation for structured concurrency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Coroutines and Flow lesson implementation for structured concurrency" />
+    <MESSAGE value="Refactor comments and improve code readability across multiple files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor comments and improve code readability across multiple files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

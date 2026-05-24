@@ -1,30 +1,21 @@
 /**
-The while loop repeats a block of code.
-It runs as long as the condition is true.
-
-Syntax
-
-while (testExpression) {
-    // code inside while loop
-}
+ * Demonstrates `while` loops in Kotlin.
+ *
+ * A `while` loop repeats a block as long as its condition is true.
  */
-
-
 fun main() {
-    var i = 1 // Initial value.
-
-    while (i <= 5) { // Continue while i <= 5
-        println("$i") // Print i.
-        ++i // Prefix increment
+    var i = 1
+    while (i <= 5) {
+        println(i)
+        ++i
     }
 
-    // Program that sums numbers from 10 down to 1.
-    var sum = 0 // Accumulator
-    var j = 10 // Initial value
-
-    while (j != 0) { // Run until j reaches 0
-        sum += j     // sum = sum + j
-        --j // Decrement j
+    // Sum numbers from 10 down to 1.
+    var sum = 0
+    var j = 10
+    while (j != 0) {
+        sum += j
+        --j
     }
-    println("sum = $sum") // Print total.
+    println("sum = $sum")
 }
