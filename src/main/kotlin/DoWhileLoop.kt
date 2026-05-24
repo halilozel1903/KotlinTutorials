@@ -2,7 +2,7 @@
  * Demonstrates the `do-while` loop, where the loop body executes at least once
  * before the condition is evaluated.
  */
-fun main() {
+fun lessonDoWhileLoop() {
     // Example 1: condition is false, but body still runs once.
     var i = 6
     do {
@@ -17,3 +17,8 @@ fun main() {
         j++
     } while (j <= 5)
 }
+
+fun main() {
+    lessonDoWhileLoop()
+}
+
