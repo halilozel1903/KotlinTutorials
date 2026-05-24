@@ -1,7 +1,7 @@
 /**
  * Demonstrates Kotlin ranges, descending ranges, stepping, and `until`.
  */
-fun main() {
+fun lessonRange() {
     val numbers = 1..20
     val letters = 'a'..'z'
 
@@ -31,4 +31,8 @@ fun main() {
     println(oneToTwenty)
     println(oneToTwentyReverse)
     println(stepByFiveNumbersReverse)
+}
+
+fun main() {
+    lessonRange()
 }

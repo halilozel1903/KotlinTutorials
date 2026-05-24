@@ -2,7 +2,7 @@
  * Demonstrates common `for` loop use-cases over ranges, strings, arrays,
  * and nested iterations.
  */
-fun main() {
+fun lessonForLoop() {
     // Print the same message 10 times.
     for (i in 1..10) {
         println("We Love Kotlin")
@@ -10,6 +10,10 @@ fun main() {
 
     // Iterate over a String and format characters as comma-separated output.
     val name = "Halil Ibrahim Ozel"
+
+fun main() {
+    lessonForLoop()
+}
     for (ch in name) {
         if (ch != name.last()) {
             print("$ch,")

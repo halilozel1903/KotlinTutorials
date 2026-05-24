@@ -1,7 +1,7 @@
 /**
  * Demonstrates arithmetic operators and String concatenation in Kotlin.
  */
-fun main() {
+fun lessonArithmeticOperators() {
     val number1 = 28.0
     val number2 = 7.0
 
@@ -27,4 +27,8 @@ fun main() {
 
     val sentence = start + middle + end
     println(sentence)
+}
+
+fun main() {
+    lessonArithmeticOperators()
 }

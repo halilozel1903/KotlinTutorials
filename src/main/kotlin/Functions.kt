@@ -3,7 +3,7 @@
  */
 fun myAge(): Int = 21
 
-fun main() {
+fun lessonFunctions() {
     println("My age: ${myAge()}")
 
     println("Main method")
@@ -32,6 +32,10 @@ fun main() {
 
     val sum = sumComingNumbers(number1, number2)
     println("Sum of numbers: $sum")
+}
+
+fun main() {
+    lessonFunctions()
 }
 
 /** Prints a default greeting message. */

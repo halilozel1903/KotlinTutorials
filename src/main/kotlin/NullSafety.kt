@@ -2,7 +2,7 @@
  * Demonstrates Kotlin null-safety features: nullable types, safe calls,
  * and null-related behavior.
  */
-fun main() {
+fun lessonNullSafety() {
     val name: String? = null
     println(name)
     println(name?.length)
@@ -17,4 +17,8 @@ fun main() {
 
     // `toString()` on a nullable reference is safe and returns "null" when value is null.
     println(number.toString().length)
+}
+
+fun main() {
+    lessonNullSafety()
 }

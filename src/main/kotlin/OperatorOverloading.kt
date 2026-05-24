@@ -1,7 +1,7 @@
 /**
  * Demonstrates operator overloading by implementing `plus` for a custom type.
  */
-fun main() {
+fun lessonOperatorOverloading() {
     val numbersOne = Numbers(3, 5)
     val numbersTwo = Numbers(7, 1)
 
@@ -9,6 +9,10 @@ fun main() {
     println("sum = (${sum.numberOne}, ${sum.numberTwo})")
     println(Numbers().numberOne)
     println(Numbers().numberTwo)
+}
+
+fun main() {
+    lessonOperatorOverloading()
 }
 
 /**

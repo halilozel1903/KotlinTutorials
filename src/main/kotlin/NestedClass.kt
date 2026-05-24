@@ -10,7 +10,7 @@ class External {
 /**
  * Demonstrates Kotlin nested classes and how to access outer and nested members.
  */
-fun main() {
+fun lessonNestedClass() {
     println(External.Nested().innerInfo)
 
     val external = External()
@@ -18,4 +18,8 @@ fun main() {
 
     val nested = External.Nested()
     println(nested.callMeUp())
+}
+
+fun main() {
+    lessonNestedClass()
 }
