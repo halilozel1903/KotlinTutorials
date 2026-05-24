@@ -1,11 +1,7 @@
-/*
-You can also define how operator works for objects by overloading its corresponding function.
-For example, you need define how + operator works for objects by overloading plus() function.
-
+/**
+ * Demonstrates operator overloading by implementing `plus` for a custom type.
  */
-
 fun main() {
-
     val numbersOne = Numbers(3, 5)
     val numbersTwo = Numbers(7, 1)
 
@@ -15,15 +11,14 @@ fun main() {
     println(Numbers().numberTwo)
 }
 
+/**
+ * Simple pair-like type used to show operator overloading.
+ */
 class Numbers(val numberOne: Int = 19, val numberTwo: Int = 3) {
-
-    // Overloading plus function
+    /**
+     * Adds the corresponding values of two [Numbers] instances.
+     */
     operator fun plus(numbers: Numbers): Numbers {
         return Numbers(numberOne + numbers.numberOne, numberTwo + numbers.numberTwo)
     }
 }
-
-/*
-- When you overload operators, you should try to maintain the original spirit of the operator.
-- Unlike languages like Scala, only a specific set of operators can be overloaded in Kotlin.
- */
