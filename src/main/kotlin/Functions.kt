@@ -1,6 +1,6 @@
 /*
-Değişkenlerde olduğu gibi atama operatörü ile metoda bir değer atanmıştır.
-Metot çağrıldığında yaş bilgisi ekrana yazılır.
+Just like variables, functions can return assigned values.
+When the function is called, the returned age is printed.
  */
 
 fun myAge() = 21
@@ -8,73 +8,73 @@ fun myAge() = 21
 fun main() {
 
 
-    //metod çağrıldı.
+    // Function call.
     println("My Age : ${myAge()}")
 
 
-    println("Main metodu")
-    showMessage() // fonksiyon çağırımı
+    println("Main method")
+    showMessage() // Function invocation
 
 
-    sumFun() // metodu çağır
+    sumFun() // Call helper method
 
 
-    print("mesaj yazınız : ") // mesaj yazınız bildirimi
-    val message: String = readLine()!! // kullanıcıdan değer al
-    showMessage(message) // alınan değeri metoda yolla
+    print("Enter a message: ") // Prompt
+    val message: String = readLine()!! // Read user input
+    showMessage(message) // Pass value to function
 
 
-    print("1. sayıyı giriniz : ") // 1. sayıyı al
+    print("Enter first number: ") // Read first value
     val number1: Double = readLine()!!.toDouble()
 
-    print("2.sayıyı giriniz : ") // 2. sayıyı al
+    print("Enter second number: ") // Read second value
     val number2: Double = readLine()!!.toDouble()
 
-    val sum: Double = sumComingNumbers(number1, number2) // girilen değerleri metoda yolladık.
+    val sum: Double = sumComingNumbers(number1, number2) // Send values to function
 
-    println("sayıların toplamı :" + sum) // toplam değerini yazdır.
+    println("Sum of numbers: $sum") // Print sum
 
 
 }
 
 
-// Parametre almayan metotlar
+// Functions without parameters
 
 
 fun showMessage(): Unit {
 
-    println("Merhaba bu ilk fonksiyon")
+    println("Hello, this is the first function")
 
 }
 
 
-// sumFun() 1 ile 10 arasındaki sayıların toplamını bulan ve ekrana yazdıran parametre almayan bir metoddur.
+// sumFun() prints the sum of numbers from 1 to 10.
 
 fun sumFun(): Unit {
 
-    var sum = 0 // toplam değeri için değişken tanımlandı.
+    var sum = 0 // Accumulator
 
-    for (i in 1..10) { // for loop ile toplanacak sayı değerlerini topladık
+    for (i in 1..10) { // Iterate and accumulate
         sum += i
     }
 
-    println("sayıların toplamı : $sum") // toplam değeri yazdır.
+    println("Sum of numbers: $sum") // Print sum
 
 }
 
 
-// Parametre alan metodlar
+// Functions with parameters
 
-fun showMessage(commingMessage: String): Unit {
+fun showMessage(comingMessage: String): Unit {
 
-    println(commingMessage) // yollanan değeri ekranda yazdır.
+    println(comingMessage) // Print received value
 
 }
 
 
-// double tipinde x ve y değerleri tanımlanmıştır. metot return olarak Double tipinde bir değer döndürür.
+// Returns a Double by summing x and y.
 fun sumComingNumbers(x: Double, y: Double): Double {
 
-    return x + y // gelen x ve y değerleri toplanıp return ile gönderilir.
+    return x + y // Return sum
 }
 

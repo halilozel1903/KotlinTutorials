@@ -1,19 +1,20 @@
 /*
-    For Döngüsü : Belirli aralıklarla tekrar eden işlemleri çok kolay ve en az kod yazılacak şekilde kullanılır.
+    `for` loops are used for repeated operations over ranges or collections.
 
-    Syntax :
+    Syntax:
 
-    for (x in koleksiyon){
-    // kodlar buraya yazılır.}
+    for (x in collection) {
+        // code
+    }
 
-    - Döngüde belirtilen alana : dizi,liste,range veya string ifadeler gelebilir.
+    - The loop target can be an array, list, range, or String.
 
  */
 
 fun main() {
 
 
-    // 1 den 10'a kadar ekranda "We Love Kotlin" mesajı bastır.
+    // Print "We Love Kotlin" from 1 to 10.
 
     for (i in 1..10) {
 
@@ -21,41 +22,40 @@ fun main() {
     }
 
 
-    // name değişkenine adımı yazdırıp onun karakterlerini ekranda tek tek gösteriyoruz.
+    // Iterate over the name and print characters one by one.
 
-    val name = "Halil İbrahim Özel" // name değeri verildi.
+    val name = "Halil Ibrahim Ozel" // Sample name value.
 
-    for (ad in name) {
+    for (ch in name) {
 
-        if (!ad.equals(name.last())) { // son eleman değilse
-            print("$ad,") // name değerini virgüllerle ile yaz.
-        } else { // bu şartında dışında bir durumsa
-            println(ad) // direkt name karakterlerini yaz
+        if (!ch.equals(name.last())) { // If it is not the last character
+            print("$ch,") // Print with comma
+        } else {
+            println(ch) // Print final character without comma
         }
     }
 
 
-    // Bu örneğimizde array tanımlanıyor. Tanımlanan array değerlerini toplanıp sonucu ekranda gösteriliyor
+    // Define an array and print the sum of its elements.
 
-    val sayilar = arrayOf(3, 4, 5, 6) // array tanımı
-    var toplam = 0 // toplam değişkeni
+    val numbers = arrayOf(3, 4, 5, 6) // Array declaration
+    var total = 0 // Accumulator
 
-    for (num in sayilar) { // sayılar dizisinin içeriği kadar gez
+    for (num in numbers) { // Iterate over all elements
 
-        toplam += num // dizi elemanları toplanıyor.
+        total += num // Add current element
     }
 
-    println("Toplam : $toplam") // dizi içinde toplanan değerler ekranda gösteriliyor.
+    println("Total: $total") // Print total sum.
 
 
-    // Son örneğimizde iç içe for döngülerinde 1 den 3'e kadar dönüp onların toplamını ekranda gösteriyoruz.
+    // Nested loop example from 1 to 3.
 
-    for (i in 1..3) { // i değeri 1 den 3 kadar
+    for (i in 1..3) { // Outer loop
 
-        for (j in 1..3) { // j değeride 1 den 3 e kadar
+        for (j in 1..3) { // Inner loop
 
-            println("$i + $j = ${i + j}") // dıştaki for çalışıyor ve sonra içteki for'a girip işlemleri yapıyor.
-            // Sonrada değerler yazdırılıyor.
+            println("$i + $j = ${i + j}") // Print pair-wise sums.
         }
     }
 

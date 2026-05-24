@@ -1,20 +1,20 @@
 fun main() {
 
-    val name: String? = null // name değişkeni String veya null da olabilir.
+    val name: String? = null // `name` can be String or null.
 
-    println(name) // null değer dönderir.
+    println(name) // Prints null.
 
-    println(name?.length) // güvenli bir şekilde ekranda gösterme içerisinde null olabilir diye belirttik.
+    println(name?.length) // Safe call for nullable value.
 
-    // println(name!!.length)  null olup olmaması önmeli değil kullanımıdır. Null Pointer Exception fırlatır.
+    // println(name!!.length) // Throws NullPointerException if name is null.
 
 
-    var sayi: Int? // int türünde ama null değerde olabilir.
-    sayi = 10
-    println(sayi) // sayi değeri ekranda gösterildi.
+    var number: Int? // Int that can also be null.
+    number = 10
+    println(number)
 
-    sayi = null // int türündeki değişkene null değer atandı.
-    println(sayi) // sayi değeri ekranda gçsterdik.
-    println(sayi.toString().length) // sayi değerini stringe dönüştür ve uzunluğunu bul
+    number = null
+    println(number)
+    println(number.toString().length) // Convert to string and get length.
 
 }

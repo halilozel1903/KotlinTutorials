@@ -1,6 +1,6 @@
 /*
- Sealed yapilar, durum modellemesini kapali bir hiyerarsi ile yapar.
- Boylece when kullaniminda tum olasiliklar compile-time'da zorunlu hale gelir.
+ Sealed types model state with a closed hierarchy.
+ This makes all branches in a `when` expression exhaustive at compile time.
  */
 
 sealed class UiState {

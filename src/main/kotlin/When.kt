@@ -1,6 +1,6 @@
 /**
-When yapısı Javada kullanılan switch-case yapısına benzemektedir.
-Daha esnek bir yapıya sahip olan When ile daha kolay şartları yapabileceksiniz.
+`when` is similar to Java's `switch-case` construct.
+It is more flexible and can be used in expression form.
  */
 
 fun main() {
@@ -8,36 +8,36 @@ fun main() {
     val a = 12
     val b = 5
 
-    print("Enter operator either +, -, * or / : ") // istenilen işlem ile ilgili seçeneği seçiliyor.
+    print("Enter operator either +, -, * or / : ") // Ask for an operator.
 
-    val result = when (val operator = readlnOrNull()) { // seçilen operatör okunuyor.
-        "+" -> a + b // + ise : toplama işlemi
-        "-" -> a - b // - ise : çıkarma işlemi
-        "*" -> a * b // * ise : çarpma işlemi
-        "/" -> a / b // / ise : bölme işlemi
-        else -> "$operator operator is invalid operator." // başka bir karakter girilirse
+    val result = when (val operator = readlnOrNull()) { // Read selected operator.
+        "+" -> a + b // Addition
+        "-" -> a - b // Subtraction
+        "*" -> a * b // Multiplication
+        "/" -> a / b // Division
+        else -> "$operator operator is invalid operator." // Invalid input
     }
 
-    println("result = $result") // sonuç ekranda gösteriliyor.
+    println("result = $result") // Print result.
 
 
-    // Birden fazla değere sahip ifadenin içeriğinde bulunup bulunmamasına bakılıyor.
+    // Example: matching multiple values in one branch.
 
-    val n = -1 // değişken tanımlandı.
+    val n = -1 // Example value.
 
-    when (n) { // n değeri
-        1, 2, 3 -> println("n is a positive integer less than 4.") // 1,2,3 den biriyse
-        0 -> println("n is zero") // n 0 dır.
-        -1, -2 -> println("n is a negative integer greater than 3.") // -1,-2 ise negatif
+    when (n) { // Evaluate n.
+        1, 2, 3 -> println("n is a positive integer less than 4.") // Matches 1,2,3
+        0 -> println("n is zero") // Matches zero
+        -1, -2 -> println("n is a negative integer greater than 3.") // Matches -1,-2
     }
 
 
-    // range(aralık) belirtilerekde kullanılabilir.
+    // Example: using ranges in `when`.
 
-    val j = 100 // j değişkenine 100 değeri atandı.
+    val j = 100 // Assign sample value.
 
-    when (j) { // j değeri
-        in 1..10 -> println("A positive number less than 11.") // 1 ile 10 arasında ise
-        in 10..100 -> println("A positive number between 10 and 100 (inclusive)") // 10 ile 100 arasında ise
+    when (j) { // Evaluate j.
+        in 1..10 -> println("A positive number less than 11.") // In 1..10
+        in 10..100 -> println("A positive number between 10 and 100 (inclusive)") // In 10..100
     }
 }

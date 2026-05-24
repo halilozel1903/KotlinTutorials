@@ -1,9 +1,9 @@
 /*
 
-Do-while : While döngüsüne benzemektedir.
-Tek farkı ilk önce koşula bakılmadan ilk adım yapılıyor sonrada artık koşul içindeki işlemlere bakılıyor.
+Do-while is similar to a while loop.
+The body runs first, then the condition is checked.
 
-Sytanx :
+Syntax:
 
 do {
    // codes inside body of do while loop
@@ -15,20 +15,20 @@ fun main() {
 
     // Example - 1
 
-    var i = 6 // i değerini tanımladık.
+    var i = 6 // Initial value for i.
     do {
-        println(i) // i değerini ekrana yazdır.
-        i++ // i değerini arttır.
-    } while (i <= 5); // i değeri 5'e eşit veya  5 ten küçükse
+        println(i) // Print i.
+        i++ // Increment i.
+    } while (i <= 5) // Continue while i is less than or equal to 5.
 
 
     // Example - 2
 
-    var j = 1 // j değerini tanımladık.
+    var j = 1 // Initial value for j.
     do {
-        println(j) // koşula bakmadan ilk işlem yapılıyor.
-        j++ // j değerini arttır.
-    } while (j <= 5); // koşul devam ettikçe işlemleri yap.
+        println(j) // First iteration runs before condition check.
+        j++ // Increment j.
+    } while (j <= 5) // Keep running while condition is true.
 
 
 }

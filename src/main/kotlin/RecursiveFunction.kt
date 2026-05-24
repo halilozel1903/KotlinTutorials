@@ -1,27 +1,27 @@
-var i = 5 // global değişken tanımı
+var counter = 5 // Global counter
 
 /*
-    Bir metot kendi kendine çalıştırılabiliyorsa bu metotlara özyinelemeli metotlar denir.
-    Değişken sıfır veya sıfırdan büyük olduğu sürece metot ekrana mesaj yazdıktan sonra
-    kendisini çağırır. Her çağrımda i değişkeni azalır.
+    A recursive function is a function that calls itself.
+    As long as the value is zero or positive, it prints a message
+    and calls itself again. The counter decreases on each call.
 
  */
 
-fun rekursif(): Unit {
+fun recursive(): Unit {
 
-    i-- // i değeri bir azalır.
+    counter-- // Decrease by one.
 
-    // i değişkeni bir azaldıktan sonra sıfır veya sıfırdan büyükse ekrana mesaj yazdır ve kendini tekrar çağır.
-    if (i >= 0) {
-        println("rekursif mesaj")
-        rekursif()
-    } else { // i değişkeni sıfırdan küçükse mesaj bastır.
-        print("rekursif sonu")
+    // If counter is still non-negative, keep recursing.
+    if (counter >= 0) {
+        println("recursive message")
+        recursive()
+    } else { // Base case
+        print("recursive end")
     }
 
 
 }
 
 fun main() {
-    rekursif() // rekürsif metot önce main() içinden çağrılmalıdır.
+    recursive() // Entry point call
 }

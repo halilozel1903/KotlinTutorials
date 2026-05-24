@@ -1,20 +1,8 @@
-fun main() { // main fonksiyonu
+fun main() {
 
-    print("Hello World !!!") // print ekrana yazdırma metodu
+    print("Hello World !!!")
 
-    println("Hello World") // println alt satıra geçmek için kullanılır.
+    println("Hello World")
 
 }
 
-/*
-    // Hello World Program
-
-    class HelloWorldKt { // class tanımlanır.
-
-    public static void main(String[] args) { // class içerisine metod tanımlanır.
-        System.out.println("Hello, World!");  // metod içerisinde ekrana yazdırılır.
-        
-    }
-}
-
- */

@@ -10,8 +10,8 @@ fun main() {
     mapFour.clear()
     println(mapFour)
 
-    for (entity in mapTwo) { // map içindeki bulunan key-value olarak entity değişkenine atanır.
-        println(entity) //entity içinde key-value birlikte olduğu için ekranda da beraber çıktı verir.
+    for (entity in mapTwo) {
+        println(entity)
     }
 
     val mapYears = mutableMapOf<Char, Int>()

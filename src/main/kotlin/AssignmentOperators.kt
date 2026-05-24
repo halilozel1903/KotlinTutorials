@@ -1,6 +1,6 @@
 /*
 
-Atama operatörleri
+Assignment Operators
 
 a +=b	a = a + b
 a += b	a = a + b
@@ -15,11 +15,11 @@ fun main() {
     var a = 10
     val b = 5
 
-    val sonuc: Int = a + b  // sonuc değişkenine a ve b değerler toplamı atandı.
+    val result: Int = a + b  // Sum of a and b.
 
-    println(sonuc) // sonuc değişkeni 15 olarak bulundu.
+    println(result) // Prints 15.
 
-    a += b // a değerine b değeri eklenip a değerine atandı.
+    a += b // Add b into a.
 
-    println(a) // a sonucu 15
+    println(a) // a becomes 15
 }

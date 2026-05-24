@@ -1,35 +1,27 @@
-/*
-
-    Continue : Döngü yine çalışmaya devam eder. Ancak belirli bir şart sağlandığında, döngü içinde
-    bulunan sonraki satırlara geçmeden döngü başa gider. Bazı değerleri çalıştırır.
- */
-
-
 
 
 fun main() {
 
-    for (i in 1..10) { // i 1'den 10'a kadar dön
+    for (i in 1..10) {
 
-        if (i == 8) { // i değeri 8 ise
+        if (i == 8) {
 
-            continue // 8 değerini geç
+            continue
         }
 
-        println(i) // elemanları ekranda göster.
+        println(i)
     }
 
+    for (char in "Halil&Ibrahim") {
 
-    for (char in "Halil&İbrahim") { // string türde bir ifade kadar dön
+        if (char == '&') {
 
-        if (char == '&') { // bu karakter varsa
+            print(" ")
 
-            print(" ") // boşluk bırak
-
-            continue //o kısmı atla devam et
+            continue
         }
 
-        print(char) // çıktıyı ekranda bastır.
+        print(char)
     }
 
 }

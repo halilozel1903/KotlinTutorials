@@ -1,30 +1,30 @@
 /**
-While döngüsü, programın bir bölümünü birkaç kez yinelemek için kullanılır.
-Döngü, koşul doğru olana kadar kod bloğunu yürütür.
+The while loop repeats a block of code.
+It runs as long as the condition is true.
 
 Syntax
 
 while (testExpression) {
-    // while döngüsünün içindeki kodlar
+    // code inside while loop
 }
  */
 
 
 fun main() {
-    var i = 1 // i değeri verildi.
+    var i = 1 // Initial value.
 
-    while (i <= 5) { // i 5'e eşit veya 5 ten küçük olana kadar
-        println("$i") // i değerini yazdır.
-        ++i // önden arttırım
+    while (i <= 5) { // Continue while i <= 5
+        println("$i") // Print i.
+        ++i // Prefix increment
     }
 
-    // 0 dan 10 'a kadar olan sayıların toplamını bulan program
-    var sum = 0 // toplama değişkeni tanımlandı.
-    var j = 10 // j değeri verildi.
+    // Program that sums numbers from 10 down to 1.
+    var sum = 0 // Accumulator
+    var j = 10 // Initial value
 
-    while (j != 0) { // j değeri 0 dan farklı ise
-        sum += j     // sum = sum + j; // sum ile j değerini topla
-        --j // j değerini azalt ve döngüye devam et
+    while (j != 0) { // Run until j reaches 0
+        sum += j     // sum = sum + j
+        --j // Decrement j
     }
-    println("sum = $sum") // toplam değerini yazdır.
+    println("sum = $sum") // Print total.
 }

@@ -1,13 +1,13 @@
 /*
 
-Kotlinde iki tip değişken bulunmaktadır.
-Bunlar : var ve val
+Kotlin has two variable keywords:
+`var` and `val`.
 
-var : variable kelimesinden gelmektedir. Değişen değerler için kullanılır.
+`var` is used for mutable values.
 
-val : value kelimesinden gelmektedir. Değişmeyen ya da sabit değerler için kullanılır.
+`val` is used for read-only values.
 
-val değişkenin kullanımı Javada final kelimesine denk gelmektedir.
+`val` is conceptually similar to Java's `final` reference.
 
 
  */
@@ -15,33 +15,32 @@ val değişkenin kullanımı Javada final kelimesine denk gelmektedir.
 
 fun main() {
 
-    val name: String // name adında bir değişken tanımlandı.
+    val name: String // Declare a variable named `name`.
 
-    name = "Halil" // tanımlanan değişkene String türünde bir içerik atandı.
+    name = "Halil" // Assign a String value.
 
-    println("My name is :$name") // name değişkeninin içeriğini ekranda gösterir.
+    println("My name is :$name") // Print the value of `name`.
 
-    val pi: Double = 3.14 // pi adında Double türünde bir değişken tanımı yapılıp değeri atandı.
+    val pi: Double = 3.14 // Declare a `Double` value named `pi`.
 
-    println("pi :$pi") // pi değerini ekrana yazdırır
+    println("pi :$pi") // Print the value of `pi`.
 
     /*
 
-    Kotlin Java gibi değişken türünü illa belirteceksin gibi bir zorunluluğu kaldırmıştır.
-    Kullanıcı ister türünü belirtir isterse belirtmez kod işlendiği anda hangi değişken
-    türüne ait onu kendisi anlamaktadır.
+    Kotlin does not always require explicit type declarations.
+    The compiler can infer the type from the assigned value.
 
-    Java'da : String name = "Name"
+    Java: String name = "Name"
 
-    Kotlin'de : var name = "Name"
+    Kotlin: var name = "Name"
 
-    Değişken tanımı yapılınca aşağıdaki gibi yollar izlenilebilir :
+    Common declaration styles:
 
-    1 - var name = "Name" // 1. adımda değişken tipini belirtmeden direkt kullanılacak yapı atanır.
+    1 - var name = "Name" // Type is inferred automatically.
 
-    2 - var name : String // 2. adımda ise öncelikle değişken türünü belirtip daha sonra içerik atanabilir.
+    2 - var name : String // Declare type first, assign later.
         name = "Name"
 
-    3 - var name : String = "Name"  // 3. adımda tek satırda hem değişken türü hem de içeriği verilir.
+    3 - var name : String = "Name"  // Declare type and value on one line.
      */
 }

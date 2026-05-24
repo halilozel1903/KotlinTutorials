@@ -1,45 +1,45 @@
 fun main() {
 
 
-    // Pozitif - Negatif Sayı Bulma
+    // Positive / negative number check
 
-    val number = 58 // number değişken tanımı
+    val number = 58 // Example input value.
 
-    val result = if (number > 0) // number 0 dan büyükse
-        "positive number"  // pozitif
-    else if (number < 0) // number 0 dan küçükse
-        "negative number" // negatif
-    else // ya da başka bir değere eşitse yani 0'a eşitse
-        "zero" // sıfır
+    val result = if (number > 0) // If number is greater than 0
+        "positive number"
+    else if (number < 0) // If number is less than 0
+        "negative number"
+    else // Otherwise number is 0
+        "zero"
 
-    println("number is $result") // sonucun ne olduğu ekranda gösteriliyor.
-
-
-    // Üniversite harf notu hesaplama örneği
+    println("number is $result") // Print evaluation result.
 
 
-    print("Vize notunuz :") // vize notu isteniyor.
+    // University letter grade example
 
-    val vize = readLine()!!.toDouble() // vize notu double türde alınıyor.
 
-    print("Final notunuz :") // final notu isteniyor.
+    print("Enter midterm grade: ") // Request midterm grade.
 
-    val final = readLine()!!.toDouble() // final notu double türde alınıyor.
+    val midterm = readLine()!!.toDouble() // Read as Double.
 
-    val ortalama = (vize * 0.4) + (final * 0.6) // ortalama hesabı yapılıyor.
+    print("Enter final grade: ") // Request final grade.
 
-    val sonuc = if (ortalama >= 70) //eğer ortalama 70'e eşit ve üstü ise
+    val finalExam = readLine()!!.toDouble() // Read as Double.
+
+    val average = (midterm * 0.4) + (finalExam * 0.6) // Weighted average.
+
+    val letterGrade = if (average >= 70)
         "AA"
-    else if (ortalama < 70 || ortalama >= 60) // ortalama 70 den küçük veya 60 a eşit ve büyükse
+    else if (average < 70 || average >= 60)
         "BB"
-    else if (ortalama < 60 || ortalama >= 50) // ortalama 60 dan küçük veya 50 ye eşit ve büyükse
+    else if (average < 60 || average >= 50)
         "CC"
-    else if (ortalama < 50 || ortalama >= 40) // ortalama 50 den küçük veya 40 a eşit ve büyükse
+    else if (average < 50 || average >= 40)
         "DD"
-    else // farklı bir değerde ise
+    else
         "FF"
 
-    println("Ortalama : " + ortalama) // ortalama değeri
-    println("Sonuc : $sonuc") // sonuc değeri
+    println("Average: $average") // Print weighted average.
+    println("Result: $letterGrade") // Print letter grade.
 
 }
