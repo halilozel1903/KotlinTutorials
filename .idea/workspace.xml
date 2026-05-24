@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Refactor comments and improve code readability across multiple files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ArithmeticOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ArithmeticOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Class-Objects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Class-Objects.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ForLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ForLoop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Getters-Setters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Getters-Setters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InfixFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/InfixFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NestedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NestedClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/OperatorOverloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/OperatorOverloading.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Range.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/When.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/When.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhileLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/WhileLoop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/do...whileLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/do...whileLoop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/if..else..ifExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/if..else..ifExpression.kt" afterDir="false" />
-    </list>
+    <list default="true" id="c051709f-6b23-4b04-bb40-782e59e25d9a" name="Default Changelist" comment="Refactor WhileLoop.kt; improve clarity of comments and code structure for `while` loop examples" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -458,62 +441,6 @@
       <option name="project" value="LOCAL" />
       <updated>1675430367940</updated>
     </task>
-    <task id="LOCAL-00050" summary="Add Kotlin 2026 lessons on sealed interfaces, value classes, and scope functions">
-      <option name="closed" value="true" />
-      <created>1775401109776</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1775401109777</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Update workspace.xml to remove blank items and add new task summaries">
-      <option name="closed" value="true" />
-      <created>1775401115897</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1775401115897</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Update .gitignore to include Gradle and build artifacts">
-      <option name="closed" value="true" />
-      <created>1775401307960</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1775401307961</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Add settings.gradle.kts to define root project name">
-      <option name="closed" value="true" />
-      <created>1775401319258</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1775401319259</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Refactor sealed class to implement UiState for better state management">
-      <option name="closed" value="true" />
-      <created>1775401329109</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1775401329109</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Add Gradle build configuration and wrapper for project setup">
-      <option name="closed" value="true" />
-      <created>1775401366389</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1775401366389</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Update Kotlin and Gradle configurations for improved project setup">
-      <option name="closed" value="true" />
-      <created>1775402959136</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1775402959136</updated>
-    </task>
     <task id="LOCAL-00057" summary="Update README.md for 2026 Professional Edition and enhance project structure">
       <option name="closed" value="true" />
       <created>1775402967864</created>
@@ -554,7 +481,63 @@
       <option name="project" value="LOCAL" />
       <updated>1779640469292</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Refactor code for arithmetic operators, class definition, loops, and functions; improve readability and structure">
+      <option name="closed" value="true" />
+      <created>1779641233130</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1779641233130</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Refactor code to improve readability and structure; update comments and examples for clarity">
+      <option name="closed" value="true" />
+      <created>1779641478839</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1779641478839</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Enhance documentation for operator overloading example; improve clarity and structure of comments">
+      <option name="closed" value="true" />
+      <created>1779641484482</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1779641484482</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Enhance documentation for operator overloading example; improve clarity and structure of comments">
+      <option name="closed" value="true" />
+      <created>1779641487367</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1779641487367</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Refactor documentation in Variables.kt; improve clarity and structure of variable declaration examples">
+      <option name="closed" value="true" />
+      <created>1779641492844</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1779641492844</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Refactor When.kt; improve clarity of examples and comments for `when` usage">
+      <option name="closed" value="true" />
+      <created>1779641499030</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1779641499030</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Refactor WhileLoop.kt; improve clarity of comments and code structure for `while` loop examples">
+      <option name="closed" value="true" />
+      <created>1779641510457</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1779641510457</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,12 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New Links added in ReadMe page." />
-    <MESSAGE value="Project settings made." />
-    <MESSAGE value="Clean code made." />
-    <MESSAGE value="Language,api version upgraded to 1.9" />
-    <MESSAGE value="App updated." />
-    <MESSAGE value="WhileLoop.kt updated." />
     <MESSAGE value="When.kt changed." />
     <MESSAGE value="Grammar fixed for RecursiveFunction.kt" />
     <MESSAGE value="Simple.kt renamed." />
@@ -597,7 +574,13 @@
     <MESSAGE value="Update main function to call lesson functions for improved execution flow" />
     <MESSAGE value="Add Coroutines and Flow lesson implementation for structured concurrency" />
     <MESSAGE value="Refactor comments and improve code readability across multiple files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor comments and improve code readability across multiple files" />
+    <MESSAGE value="Refactor code for arithmetic operators, class definition, loops, and functions; improve readability and structure" />
+    <MESSAGE value="Refactor code to improve readability and structure; update comments and examples for clarity" />
+    <MESSAGE value="Enhance documentation for operator overloading example; improve clarity and structure of comments" />
+    <MESSAGE value="Refactor documentation in Variables.kt; improve clarity and structure of variable declaration examples" />
+    <MESSAGE value="Refactor When.kt; improve clarity of examples and comments for `when` usage" />
+    <MESSAGE value="Refactor WhileLoop.kt; improve clarity of comments and code structure for `while` loop examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor WhileLoop.kt; improve clarity of comments and code structure for `while` loop examples" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

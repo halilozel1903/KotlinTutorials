@@ -24,3 +24,11 @@ application {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.register<JavaExec>("runLessons") {
+    group = "application"
+    description = "Runs the root lessons index runner (LessonsRunnerKt)."
+    classpath = sourceSets.main.get().runtimeClasspath
+    mainClass.set("LessonsRunnerKt")
+}
+
