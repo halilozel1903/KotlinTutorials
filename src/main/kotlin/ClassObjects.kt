@@ -20,7 +20,7 @@ class Lamp {
 /**
  * Creates two lamp objects and toggles each one independently.
  */
-fun main() {
+fun lessonClassObjects() {
     val lamp1 = Lamp()
     val lamp2 = Lamp()
 
@@ -30,3 +30,8 @@ fun main() {
     lamp1.displayLightStatus("lamp1")
     lamp2.displayLightStatus("lamp2")
 }
+
+fun main() {
+    lessonClassObjects()
+}
+
