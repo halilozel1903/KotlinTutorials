@@ -1,7 +1,7 @@
 /**
  * Introduces Kotlin variable declarations using `val` (read-only) and `var` (mutable).
  */
-fun main() {
+fun lessonVariables() {
     val name: String
     name = "Halil"
     println("My name is: $name")
@@ -20,4 +20,8 @@ fun main() {
      * 2) var name: String; name = "Name" // Type declared, value assigned later.
      * 3) var name: String = "Name"       // Type and value together.
      */
+}
+
+fun main() {
+    lessonVariables()
 }

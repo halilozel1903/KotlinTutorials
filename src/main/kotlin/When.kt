@@ -1,7 +1,7 @@
 /**
  * Demonstrates `when` as a replacement for traditional `switch`-style branching.
  */
-fun main() {
+fun lessonWhen() {
     val a = 12
     val b = 5
 
@@ -31,4 +31,8 @@ fun main() {
         in 11..100 -> println("A positive number between 11 and 100 (inclusive)")
         else -> println("Not in the configured positive range")
     }
+}
+
+fun main() {
+    lessonWhen()
 }

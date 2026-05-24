@@ -3,7 +3,7 @@
  *
  * A `while` loop repeats a block as long as its condition is true.
  */
-fun main() {
+fun lessonWhileLoop() {
     var i = 1
     while (i <= 5) {
         println(i)
@@ -18,4 +18,8 @@ fun main() {
         --j
     }
     println("sum = $sum")
+}
+
+fun main() {
+    lessonWhileLoop()
 }
