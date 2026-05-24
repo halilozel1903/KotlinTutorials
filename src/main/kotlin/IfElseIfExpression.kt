@@ -1,7 +1,7 @@
 /**
  * Demonstrates `if / else if / else` as both a statement and an expression.
  */
-fun main() {
+fun lessonIfElseIfExpression() {
     // Example 1: sign check with `if` expression.
     val number = 58
     val signDescription = if (number > 0) {
@@ -37,3 +37,8 @@ fun main() {
     println("Average: $average")
     println("Letter grade: $letterGrade")
 }
+
+fun main() {
+    lessonIfElseIfExpression()
+}
+
