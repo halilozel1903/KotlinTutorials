@@ -1,34 +1,19 @@
-/*
-
-Do-while is similar to a while loop.
-The body runs first, then the condition is checked.
-
-Syntax:
-
-do {
-   // codes inside body of do while loop
-} while (testExpression);
-
+/**
+ * Demonstrates the `do-while` loop, where the loop body executes at least once
+ * before the condition is evaluated.
  */
-
 fun main() {
-
-    // Example - 1
-
-    var i = 6 // Initial value for i.
+    // Example 1: condition is false, but body still runs once.
+    var i = 6
     do {
-        println(i) // Print i.
-        i++ // Increment i.
-    } while (i <= 5) // Continue while i is less than or equal to 5.
+        println(i)
+        i++
+    } while (i <= 5)
 
-
-    // Example - 2
-
-    var j = 1 // Initial value for j.
+    // Example 2: regular repetition while condition remains true.
+    var j = 1
     do {
-        println(j) // First iteration runs before condition check.
-        j++ // Increment j.
-    } while (j <= 5) // Keep running while condition is true.
-
-
+        println(j)
+        j++
+    } while (j <= 5)
 }
