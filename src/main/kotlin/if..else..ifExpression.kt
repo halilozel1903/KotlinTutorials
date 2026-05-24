@@ -1,45 +1,39 @@
+/**
+ * Demonstrates `if / else if / else` as both a statement and an expression.
+ */
 fun main() {
-
-
-    // Positive / negative number check
-
-    val number = 58 // Example input value.
-
-    val result = if (number > 0) // If number is greater than 0
+    // Example 1: sign check with `if` expression.
+    val number = 58
+    val signDescription = if (number > 0) {
         "positive number"
-    else if (number < 0) // If number is less than 0
+    } else if (number < 0) {
         "negative number"
-    else // Otherwise number is 0
+    } else {
         "zero"
+    }
+    println("The value is a $signDescription")
 
-    println("number is $result") // Print evaluation result.
+    // Example 2: weighted grade to letter-grade mapping.
+    print("Enter midterm grade: ")
+    val midterm = readlnOrNull()?.toDoubleOrNull()
 
+    print("Enter final grade: ")
+    val finalExam = readlnOrNull()?.toDoubleOrNull()
 
-    // University letter grade example
+    if (midterm == null || finalExam == null) {
+        println("Invalid input. Please enter numeric values.")
+        return
+    }
 
+    val average = (midterm * 0.4) + (finalExam * 0.6)
+    val letterGrade = when {
+        average >= 70 -> "AA"
+        average >= 60 -> "BB"
+        average >= 50 -> "CC"
+        average >= 40 -> "DD"
+        else -> "FF"
+    }
 
-    print("Enter midterm grade: ") // Request midterm grade.
-
-    val midterm = readLine()!!.toDouble() // Read as Double.
-
-    print("Enter final grade: ") // Request final grade.
-
-    val finalExam = readLine()!!.toDouble() // Read as Double.
-
-    val average = (midterm * 0.4) + (finalExam * 0.6) // Weighted average.
-
-    val letterGrade = if (average >= 70)
-        "AA"
-    else if (average < 70 || average >= 60)
-        "BB"
-    else if (average < 60 || average >= 50)
-        "CC"
-    else if (average < 50 || average >= 40)
-        "DD"
-    else
-        "FF"
-
-    println("Average: $average") // Print weighted average.
-    println("Result: $letterGrade") // Print letter grade.
-
+    println("Average: $average")
+    println("Letter grade: $letterGrade")
 }

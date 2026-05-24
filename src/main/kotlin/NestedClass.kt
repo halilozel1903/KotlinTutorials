@@ -1,27 +1,21 @@
 class External {
-
-    val lowInfo = "This is Outside Nested Class."
+    val outerInfo = "This is outside the nested class."
 
     class Nested {
-        val highInfo = "This is Inside Nested Class."
-        fun callMeUp() = "Function call from inside Nested Class."
+        val innerInfo = "This is inside the nested class."
+        fun callMeUp() = "Function call from inside Nested class."
     }
 }
 
-/*
- Kotlin allows you to define a class within another class known as nested class.
+/**
+ * Demonstrates Kotlin nested classes and how to access outer and nested members.
  */
-
 fun main() {
+    println(External.Nested().innerInfo)
 
-    // Accessing member of Nested class
-    println(External.Nested().highInfo)
-
-    // Accessing member of External class
     val external = External()
-    println(external.lowInfo)
+    println(external.outerInfo)
 
-    // Creating object of Nested class
     val nested = External.Nested()
     println(nested.callMeUp())
 }

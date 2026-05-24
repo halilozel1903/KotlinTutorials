@@ -1,27 +1,22 @@
-/*Kotlin provides infix notation with which we can call a function with the class object without using
-a dot and parentheses across the parameter. Using infix function provides more readability to
-a function similar to other operators like in, is, as in Kotlin.*/
-
+/**
+ * Demonstrates a user-defined infix function in Kotlin.
+ */
 class Check {
-    // user defined infix member function
-    infix fun dataType(types: Any): Any {
-        val type = when (types) {
+    /** Returns a readable type label for the provided value. */
+    infix fun dataType(value: Any): String {
+        return when (value) {
             is String -> "String"
             is Int -> "Integer"
             is Double -> "Double"
             is Char -> "Char"
             is Float -> "Float"
-            else -> "Invalid"
+            else -> "Unsupported"
         }
-        return type
     }
 }
 
 fun main() {
     val check = Check()
-    // call using infix notation
     val result = check dataType "Halil"
     println(result)
 }
-
-

@@ -1,20 +1,20 @@
+/**
+ * Demonstrates Kotlin null-safety features: nullable types, safe calls,
+ * and null-related behavior.
+ */
 fun main() {
+    val name: String? = null
+    println(name)
+    println(name?.length)
+    // println(name!!.length) // Would throw NullPointerException when `name` is null.
 
-    val name: String? = null // `name` can be String or null.
-
-    println(name) // Prints null.
-
-    println(name?.length) // Safe call for nullable value.
-
-    // println(name!!.length) // Throws NullPointerException if name is null.
-
-
-    var number: Int? // Int that can also be null.
+    var number: Int?
     number = 10
     println(number)
 
     number = null
     println(number)
-    println(number.toString().length) // Convert to string and get length.
 
+    // `toString()` on a nullable reference is safe and returns "null" when value is null.
+    println(number.toString().length)
 }
