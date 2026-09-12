@@ -15,4 +15,3 @@ fun lessonIncrementDecrementOperators() {
 fun main() {
     lessonIncrementDecrementOperators()
 }
-
