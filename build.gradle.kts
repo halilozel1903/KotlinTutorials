@@ -1,34 +1,61 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
-    kotlin("jvm") version "2.0.21"
-    kotlin("plugin.serialization") version "2.0.21"
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.kotlin.serialization)
     application
 }
+
 group = "com.halilozel"
-version = "2026.1"
-repositories {
-    mavenCentral()
-}
+version = "2026.2"
+
 dependencies {
-    implementation(kotlin("stdlib"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1")
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.serialization.json)
+
     testImplementation(kotlin("test"))
-    testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.junit.jupiter)
+    testRuntimeOnly(libs.junit.platform.launcher)
 }
+
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
+
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_21)
+        progressiveMode.set(true)
+        extraWarnings.set(true)
+    }
 }
+
 application {
-    mainClass.set("modern2026.Modern2026RunnerKt")
+    mainClass.set("LessonsRunnerKt")
+    applicationDefaultJvmArgs = listOf("-Dfile.encoding=UTF-8")
 }
+
 tasks.test {
     useJUnitPlatform()
+    testLogging {
+        events("passed", "skipped", "failed")
+    }
 }
 
-tasks.register<JavaExec>("runLessons") {
-    group = "application"
-    description = "Runs the root lessons index runner (LessonsRunnerKt)."
+tasks.register<JavaExec>("runModern") {
+    group = ApplicationPlugin.APPLICATION_GROUP
+    description = "Runs the modern Kotlin track entrypoint (modern2026/Modern2026Runner.kt)."
+    classpath = sourceSets.main.get().runtimeClasspath
+    mainClass.set("modern2026.Modern2026RunnerKt")
+}
+
+tasks.register<JavaExec>("runAllLessons") {
+    group = ApplicationPlugin.APPLICATION_GROUP
+    description = "Runs every non-interactive lesson in a single pass."
     classpath = sourceSets.main.get().runtimeClasspath
     mainClass.set("LessonsRunnerKt")
+    args("run-all")
 }
 
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
+}
