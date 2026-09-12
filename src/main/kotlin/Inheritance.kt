@@ -1,16 +1,18 @@
-/*
-Inheritance is one of the key features of object-oriented programming.
-It allows user to create a new class (inherited class) from an existing class (base class).
-
-The derived class inherits all the features from the base class and can have additional features of its own.
+/**
+ * Demonstrates inheritance.
+ *
+ * Classes and members are final by default in Kotlin, so a base class must be
+ * marked `open` before it can be inherited from, and a member must be `open`
+ * before it can be overridden.
  */
+open class Human(private val age: Int, private val name: String) {
 
-
-open class Human(age: Int, name: String) {
     init {
         println("My name is $name.")
         println("My age is $age")
     }
+
+    open fun introduce() = "I am $name ($age)"
 }
 
 class Developer(age: Int, name: String) : Human(age, name) {
@@ -18,6 +20,8 @@ class Developer(age: Int, name: String) : Human(age, name) {
     fun writeCodes() {
         println("I write code in Halil Company.")
     }
+
+    override fun introduce() = "${super.introduce()} and I write Kotlin."
 }
 
 class FootballPlayer(age: Int, name: String) : Human(age, name) {
@@ -26,18 +30,18 @@ class FootballPlayer(age: Int, name: String) : Human(age, name) {
     }
 }
 
-fun main() {
+fun lessonInheritance() {
     val developer = Developer(25, "Halil")
     developer.writeCodes()
+    println(developer.introduce())
 
     println()
 
     val footballPlayer = FootballPlayer(38, "Ricardo")
     footballPlayer.playFootball()
+    println(footballPlayer.introduce())
 }
 
-/*
-If the class has a primary constructor, the base must be initialized using the parameters of
-the primary constructor. In the above program, both derived classes have two parameters age and name,
-and both these parameters are initialized in primary constructor in the base class.
- */
+fun main() {
+    lessonInheritance()
+}

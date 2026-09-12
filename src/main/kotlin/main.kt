@@ -1,3 +1,6 @@
-fun main() {
-    println("Hello World!")
-}
+/**
+ * Project entrypoint lives in [lessonRunnerMain] / `LessonsRunnerKt`.
+ *
+ * Run with:
+ * `./gradlew run --args='list'`
+ */

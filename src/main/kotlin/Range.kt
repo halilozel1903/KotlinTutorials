@@ -18,12 +18,10 @@ fun lessonRange() {
     println(stepByFiveNumbers.last)
     println(stepByFiveNumbers.step)
 
-    // `until` excludes the end value.
     for (i in 1 until 5) {
         println(i)
     }
 
-    // Keep variables referenced so every declaration is demonstrated.
     println(numbers)
     println(letters)
     println(numbersReverse)

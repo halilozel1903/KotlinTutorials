@@ -14,6 +14,7 @@ private data class LessonCard(
 private val json = Json {
     prettyPrint = true
     ignoreUnknownKeys = true
+    encodeDefaults = true
 }
 
 fun lessonSerialization2026() {
@@ -27,11 +28,11 @@ fun lessonSerialization2026() {
         minutes = 45
     )
 
-    val encoded = json.encodeToString(LessonCard.serializer(), card)
+    val encoded = json.encodeToString(card)
     println("Encoded JSON:")
     println(encoded)
 
-    val decoded = json.decodeFromString(LessonCard.serializer(), encoded)
+    val decoded = json.decodeFromString<LessonCard>(encoded)
     println("Decoded object: $decoded")
 }
 

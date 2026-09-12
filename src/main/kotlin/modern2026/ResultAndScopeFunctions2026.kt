@@ -14,10 +14,8 @@ fun lessonResultAndScopeFunctions2026() {
     listOf(1, 0).forEach { profileId ->
         loadProfile(id = profileId)
             .map { it.copy(fullName = it.fullName.uppercase()) }
-            .onSuccess {
-                it.let { profile ->
-                    println("Profile loaded: ${profile.id} - ${profile.fullName} (${profile.city})")
-                }
+            .onSuccess { profile ->
+                println("Profile loaded: ${profile.id} - ${profile.fullName} (${profile.city})")
             }
             .onFailure { println("Load error: ${it.message}") }
     }
@@ -26,4 +24,3 @@ fun lessonResultAndScopeFunctions2026() {
 fun main() {
     lessonResultAndScopeFunctions2026()
 }
-

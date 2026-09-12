@@ -21,7 +21,7 @@ fun lessonSealedAndDataObject2026() {
     val states = listOf(
         ScreenState.Idle,
         ScreenState.Loading,
-        ScreenState.Content("Kotlin 2026"),
+        ScreenState.Content("Kotlin 2.4"),
         ScreenState.Failure("Timeout")
     )
 
@@ -31,4 +31,3 @@ fun lessonSealedAndDataObject2026() {
 fun main() {
     lessonSealedAndDataObject2026()
 }
-

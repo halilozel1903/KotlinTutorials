@@ -22,4 +22,3 @@ fun lessonGlobalLocalVariables() {
 fun main() {
     lessonGlobalLocalVariables()
 }
-

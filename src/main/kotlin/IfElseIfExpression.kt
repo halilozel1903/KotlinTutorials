@@ -2,7 +2,6 @@
  * Demonstrates `if / else if / else` as both a statement and an expression.
  */
 fun lessonIfElseIfExpression() {
-    // Example 1: sign check with `if` expression.
     val number = 58
     val signDescription = if (number > 0) {
         "positive number"
@@ -13,7 +12,6 @@ fun lessonIfElseIfExpression() {
     }
     println("The value is a $signDescription")
 
-    // Example 2: weighted grade to letter-grade mapping.
     print("Enter midterm grade: ")
     val midterm = readlnOrNull()?.toDoubleOrNull()
 
@@ -41,4 +39,3 @@ fun lessonIfElseIfExpression() {
 fun main() {
     lessonIfElseIfExpression()
 }
-

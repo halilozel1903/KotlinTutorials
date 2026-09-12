@@ -3,3 +3,8 @@
 build
 out
 *.iml
+.DS_Store
+.kotlin/
+kotlintutorials/
+local.properties
+*.log

@@ -1,24 +1,36 @@
-fun main() {
+/**
+ * Demonstrates maps: creation, lookup, iteration, and mutation.
+ *
+ * `mapOf` returns a read-only map, `mutableMapOf` a mutable one.
+ */
+fun lessonMap() {
+    val squad = mapOf(7 to "Ricardo Quaresma", 34 to "Hugo Almeida", 31 to "Simao Sabrosa")
+    println("map-1: ${squad[34]}")
+    println("Missing key returns null: ${squad[99]}")
+    println("With default: ${squad.getOrDefault(99, "Unknown")}")
 
-    val mapOne = mapOf<Int, String>(7 to "Ricardo Quaresma", 34 to "Hugo Almeida", 31 to "Simao Sabrosa")
-    println("map-1: ${mapOne[34]}")
+    val availability = hashMapOf(19.93 to true, 19.97 to false, 19.95 to true)
+    val emptyFlags = hashMapOf<String, Boolean>()
+    println(19.95 in availability)
+    println("Halil" in emptyFlags)
+    emptyFlags.clear()
+    println(emptyFlags)
 
-    val mapTwo = hashMapOf<Double, Boolean>(19.93 to true, 19.97 to false, 19.95 to true)
-    val mapFour = hashMapOf<String, Boolean>()
-    println(mapTwo.contains(19.95))
-    println(mapFour.contains("Halil"))
-    mapFour.clear()
-    println(mapFour)
-
-    for (entity in mapTwo) {
-        println(entity)
+    for ((key, value) in availability) {
+        println("$key -> $value")
     }
 
-    val mapYears = mutableMapOf<Char, Int>()
+    val years = mutableMapOf<Char, Int>()
+    years['b'] = 2015
+    years['j'] = 2016
+    years['k'] = 2021
+    println(years)
 
-    mapYears.put('b', 2015)
-    mapYears.put('j', 2016)
-    mapYears.put('k', 2021)
+    println("Keys: ${squad.keys}")
+    println("Filtered: ${squad.filterKeys { it > 10 }}")
+    println("Mapped: ${squad.mapValues { (_, name) -> name.uppercase() }}")
+}
 
-    println(mapYears)
+fun main() {
+    lessonMap()
 }

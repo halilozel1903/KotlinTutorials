@@ -1,8 +1,10 @@
-/*
- Sealed types model state with a closed hierarchy.
- This makes all branches in a `when` expression exhaustive at compile time.
+/**
+ * Demonstrates sealed hierarchies.
+ *
+ * A sealed type has a closed set of subclasses known at compile time, which makes
+ * `when` exhaustive: adding a new state turns into a compile error at every place
+ * that has to handle it.
  */
-
 sealed class UiState {
     data object Idle : UiState()
     data object Loading : UiState()
@@ -10,7 +12,7 @@ sealed class UiState {
     data class Error(val reason: String) : UiState()
 }
 
-fun render(state: UiState): String =
+fun renderUiState(state: UiState): String =
     when (state) {
         UiState.Idle -> "State: Idle"
         UiState.Loading -> "State: Loading"
@@ -18,7 +20,7 @@ fun render(state: UiState): String =
         is UiState.Error -> "State: Error -> ${state.reason}"
     }
 
-fun main() {
+fun lessonSealedClass() {
     val states = listOf(
         UiState.Idle,
         UiState.Loading,
@@ -26,6 +28,9 @@ fun main() {
         UiState.Error("Network timeout")
     )
 
-    states.forEach { println(render(it)) }
+    states.forEach { println(renderUiState(it)) }
 }
 
+fun main() {
+    lessonSealedClass()
+}

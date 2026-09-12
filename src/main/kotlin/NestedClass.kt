@@ -1,3 +1,6 @@
+/**
+ * Demonstrates Kotlin nested classes and how to access outer and nested members.
+ */
 class External {
     val outerInfo = "This is outside the nested class."
 
@@ -7,9 +10,6 @@ class External {
     }
 }
 
-/**
- * Demonstrates Kotlin nested classes and how to access outer and nested members.
- */
 fun lessonNestedClass() {
     println(External.Nested().innerInfo)
 

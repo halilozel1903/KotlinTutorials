@@ -1,5 +1,7 @@
 /**
  * Demonstrates basic console input and output in Kotlin.
+ *
+ * Prefer [readlnOrNull] over the deprecated `readLine()`.
  */
 fun lessonInputOutput() {
     println("1. println")
@@ -30,4 +32,3 @@ fun lessonInputOutput() {
 fun main() {
     lessonInputOutput()
 }
-

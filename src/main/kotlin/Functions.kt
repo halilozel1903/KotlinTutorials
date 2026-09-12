@@ -5,10 +5,8 @@ fun myAge(): Int = 21
 
 fun lessonFunctions() {
     println("My age: ${myAge()}")
-
     println("Main method")
     showMessage()
-
     sumFun()
 
     print("Enter a message: ")
@@ -38,26 +36,17 @@ fun main() {
     lessonFunctions()
 }
 
-/** Prints a default greeting message. */
 fun showMessage() {
     println("Hello, this is the first function")
 }
 
-/** Prints the sum of numbers from 1 to 10. */
 fun sumFun() {
-    var sum = 0
-    for (i in 1..10) {
-        sum += i
-    }
+    val sum = (1..10).sum()
     println("Sum of numbers: $sum")
 }
 
-/**
- * Overloaded version of [showMessage] that prints caller-provided content.
- */
 fun showMessage(inputMessage: String) {
     println(inputMessage)
 }
 
-/** Returns the sum of two numbers. */
 fun sumComingNumbers(x: Double, y: Double): Double = x + y

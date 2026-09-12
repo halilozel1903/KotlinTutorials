@@ -15,7 +15,6 @@ fun lessonWhen() {
     }
     println("result = $result")
 
-    // Match multiple values in one branch.
     val n = -1
     when (n) {
         1, 2, 3 -> println("n is a positive integer less than 4")
@@ -24,7 +23,6 @@ fun lessonWhen() {
         else -> println("n is outside the demonstrated cases")
     }
 
-    // Use ranges inside `when` conditions.
     val j = 100
     when (j) {
         in 1..10 -> println("A positive number less than 11")
