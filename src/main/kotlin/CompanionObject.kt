@@ -1,16 +1,29 @@
-/*
-In Kotlin, if you want to write a function or any member of the class that can be called without having the
-instance of the class then you can write the same as a member of a companion object inside the class.
+/**
+ * Demonstrates companion objects.
+ *
+ * Kotlin has no `static` keyword. Members that belong to the class rather than to
+ * an instance live inside a `companion object`.
  */
+class CallMe private constructor(val caller: String) {
 
-class CallMe {
+    fun describe() = "Call from $caller"
+
     companion object {
-        fun callMe() = println("You're calling.")
         const val NAME = "Halil Ozel"
+
+        fun callMe() = println("You're calling.")
+
+        fun create(caller: String = NAME) = CallMe(caller)
     }
 }
 
-fun main() {
+fun lessonCompanionObject() {
     CallMe.callMe()
     println("Name: ${CallMe.NAME}")
+    println(CallMe.create().describe())
+    println(CallMe.create("Ibrahim").describe())
+}
+
+fun main() {
+    lessonCompanionObject()
 }
