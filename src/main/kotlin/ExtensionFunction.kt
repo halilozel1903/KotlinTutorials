@@ -1,17 +1,24 @@
-/*
-In Kotlin, you can also use extension function to extend a class with new functionalities.
-Basically, an extension function is a member function of a class that is defined outside the class.
-
-For example, you need to use a method to the String class that returns a new string with first and
-last character removed; this method is not already available in String class.
-You can use extension function to accomplish this task.
+/**
+ * Demonstrates extension functions and extension properties.
+ *
+ * Extensions add behavior to a type without inheriting from it. They are resolved
+ * statically, so they cannot override real members.
  */
+fun String.removeFirstLastChar(): String =
+    if (length <= 2) "" else substring(1, length - 1)
 
+val String.initials: String
+    get() = split(" ").filter { it.isNotBlank() }.joinToString(".") { it.first().uppercase() }
 
-fun String.removeFirstLastChar(): String = this.substring(1, this.length - 1)
+fun String?.orPlaceholder(): String = this ?: "<empty>"
+
+fun lessonExtensionFunction() {
+    val myString = "Hello Kotlin"
+    println("Trimmed: ${myString.removeFirstLastChar()}")
+    println("Initials: ${"Halil Ibrahim Ozel".initials}")
+    println("Nullable receiver: ${null.orPlaceholder()}")
+}
 
 fun main() {
-    val myString = "Hello Kotlin"
-    val result = myString.removeFirstLastChar()
-    println("First character is: $result")
+    lessonExtensionFunction()
 }

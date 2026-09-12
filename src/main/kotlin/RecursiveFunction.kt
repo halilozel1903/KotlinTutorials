@@ -1,27 +1,26 @@
-var counter = 5 // Global counter
-
-/*
-    A recursive function is a function that calls itself.
-    As long as the value is zero or positive, it prints a message
-    and calls itself again. The counter decreases on each call.
-
+/**
+ * Demonstrates recursion.
+ *
+ * Passing the state as a parameter keeps the function pure and repeatable, unlike
+ * a shared mutable counter.
  */
-
-fun recursive(): Unit {
-
-    counter-- // Decrease by one.
-
-    // If counter is still non-negative, keep recursing.
-    if (counter >= 0) {
-        println("recursive message")
-        recursive()
-    } else { // Base case
-        print("recursive end")
+fun countDown(counter: Int) {
+    if (counter > 0) {
+        println("recursive message ($counter)")
+        countDown(counter - 1)
+    } else {
+        println("recursive end")
     }
+}
 
+tailrec fun factorial(n: Int, accumulator: Long = 1): Long =
+    if (n <= 1) accumulator else factorial(n - 1, accumulator * n)
 
+fun lessonRecursiveFunction() {
+    countDown(counter = 5)
+    println("10! = ${factorial(10)}")
 }
 
 fun main() {
-    recursive() // Entry point call
+    lessonRecursiveFunction()
 }
