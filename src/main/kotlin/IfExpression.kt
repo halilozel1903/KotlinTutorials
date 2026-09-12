@@ -1,15 +1,13 @@
-
-
-fun main() {
-
+/**
+ * Demonstrates `if` as an expression.
+ *
+ * Kotlin has no ternary operator because `if` already returns a value; the last
+ * expression of each branch becomes the result.
+ */
+fun lessonIfExpression() {
     val number = 10
 
-    val result = if (number > 0) {
-        "Positive number"
-    } else {
-        "Negative number"
-    }
-
+    val result = if (number > 0) "Positive number" else "Negative number"
     println(result)
 
     val a = 9
@@ -25,5 +23,8 @@ fun main() {
         b
     }
     println("max = $max")
+}
 
+fun main() {
+    lessonIfExpression()
 }
