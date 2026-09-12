@@ -13,13 +13,11 @@ class Lamp {
     }
 
     fun displayLightStatus(label: String) {
-        if (isOn) println("$label lamp is on.") else println("$label lamp is off.")
+        val status = if (isOn) "on" else "off"
+        println("$label lamp is $status.")
     }
 }
 
-/**
- * Creates two lamp objects and toggles each one independently.
- */
 fun lessonClassObjects() {
     val lamp1 = Lamp()
     val lamp2 = Lamp()
@@ -34,4 +32,3 @@ fun lessonClassObjects() {
 fun main() {
     lessonClassObjects()
 }
-

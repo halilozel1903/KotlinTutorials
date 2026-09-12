@@ -1,29 +1,28 @@
+/**
+ * Demonstrates inner classes.
+ *
+ * A nested class is static by default. Marking it `inner` gives it a reference to
+ * the outer instance, which is what makes the outer members accessible.
+ */
 class Outside {
-    val outside = "Outside Nested class."
+    private val outside = "Outside Nested class."
 
-    /*
-    class Inner {
-        // Error! cannot access member of outer class.
-        // fun doNotCallMeUp() = Let's do this!
-    }*/
-
-    // Inner classes carry a reference to an outside class and can access outside class members.
     inner class Inner {
         fun tellMe() = outside
+
+        fun outerReference() = this@Outside
     }
 }
 
-/*
-The nested classes do not have access to the outer class instance.
- */
-
-fun main() {
-
+fun lessonInnerClass() {
     val outer = Outside()
     println("Outside : ${outer.Inner().tellMe()}")
 
-    // println(outer.Nested.doNotCallMeUp()) -> Classifier 'Nested' does not have a companion object, and thus must be initialized her.
-
     val inner = Outside().Inner()
     println("Inner : ${inner.tellMe()}")
+    println("Same outer instance: ${outer.Inner().outerReference() === outer}")
+}
+
+fun main() {
+    lessonInnerClass()
 }
