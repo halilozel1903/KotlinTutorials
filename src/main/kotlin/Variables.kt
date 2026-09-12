@@ -6,8 +6,13 @@ fun lessonVariables() {
     name = "Halil"
     println("My name is: $name")
 
-    val pi: Double = 3.14
+    val pi = 3.14
     println("pi: $pi")
+
+    var mutableName = "Name"
+    println("Initial mutable name: $mutableName")
+    mutableName = "Halil Ozel"
+    println("Mutable name: $mutableName")
 
     /*
      * Kotlin often infers types from assigned values.
