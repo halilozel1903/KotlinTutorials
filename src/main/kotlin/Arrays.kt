@@ -1,33 +1,35 @@
-/*
-    An array is a collection of similar values such as Int, String, etc.
-
+/**
+ * Demonstrates arrays: creation, indexed access, iteration, and common helpers.
+ *
+ * Arrays have a fixed size. Prefer [List] for everyday collections and reach for
+ * arrays only when you need a fixed-size, mutable, JVM-native container.
  */
+fun lessonArrays() {
+    val counters = Array(5) { 0 }
+    counters[0] = 1
 
-fun main() {
-
-    val myArray = Array<Int>(5) { 0 } // Array with 5 elements initialized to 0
-
-    myArray[0] = 1 // Update index 0
-
-    for (element in myArray) {
-        println(element) // Print array elements
+    for (element in counters) {
+        println(element)
     }
 
-    val my_array: Array<Int> = arrayOf(1, 2, 3, 4, 5) // Int array declaration
+    val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
+    println(numbers[0])
+    println(numbers[2])
+    println("Size: ${numbers.size}")
 
-    println(my_array[0]) // Access index 0
+    val primitiveNumbers = intArrayOf(1, 2, 3, 4, 5)
+    println("Sum: ${primitiveNumbers.sum()}")
 
-    println(my_array[2]) // Access index 2
+    val names: Array<String> = arrayOf("Halil", "Ibrahim", "Ozel")
+    println("Not empty: ${names.isNotEmpty()}")
+    println("Joined: ${names.joinToString()}")
 
-    println(my_array.size) // Array size
+    val mixedValues: Array<Any> = arrayOf(1, true, 19.00, "halil")
+    println("Empty: ${mixedValues.isEmpty()}")
+    println("Content: ${mixedValues.contentToString()}")
+    println("Structural equality: ${numbers contentEquals arrayOf(1, 2, 3, 4, 5)}")
+}
 
-
-    val array_2: Array<String> = arrayOf("Halil", "Ibrahim", "Ozel") // String array declaration
-
-    println(array_2.isNotEmpty()) // True when array is not empty
-
-    val any_array: Array<Any> =
-        arrayOf(1, true, 19.00, "halil") // Any allows mixed types
-
-    println(any_array.isEmpty()) // Check whether array is empty
+fun main() {
+    lessonArrays()
 }
