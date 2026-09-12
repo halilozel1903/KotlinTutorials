@@ -10,7 +10,6 @@ fun lessonWhileLoop() {
         ++i
     }
 
-    // Sum numbers from 10 down to 1.
     var sum = 0
     var j = 10
     while (j != 0) {
