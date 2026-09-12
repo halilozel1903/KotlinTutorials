@@ -29,7 +29,7 @@ private fun scoreStream(): Flow<Int> = flow {
 private suspend fun loadProfileSummary(): String = coroutineScope {
     val nameDeferred = async { fetchProfileName() }
     val scoreDeferred = async { fetchProfileScore() }
-    return@coroutineScope "${nameDeferred.await()} - score ${scoreDeferred.await()}"
+    "${nameDeferred.await()} - score ${scoreDeferred.await()}"
 }
 
 fun lessonCoroutinesFlow2026() = runBlocking {
